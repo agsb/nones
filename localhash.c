@@ -78,13 +78,13 @@ int main (int argc, char * argv[]) {
                         break;
                     }
                 
-                printf (" > %4d %4d %4d ", i, k, q);
+                printf (" > %4d %4d (%4d) ", i, k, q);
 
                 q = q | k;
                 
                 q = q << 2;
 
-                printf (" > %4d %4d ", k, q);
+                printf (" > (%4d)\n", q);
                 
                 }
 
