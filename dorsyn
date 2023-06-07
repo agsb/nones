@@ -1,0 +1,1 @@
+sh agsb/rsyncfat -var agsb /media/agsb/5C1*/home/  --exclude ".cache/*" 2> /tmp/rsync.agsb.err2
