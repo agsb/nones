@@ -22,15 +22,17 @@ int r[] = { 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, 82, 100 };
 
 int c[] = { 10, 22, 33, 47, 100 };
 
-int i, j, k;
+int cc, i, j, k;
 
 float f;
  
-for (i=0; i< 7; i++) {
+for (i=0; i < 5 ; i++) {
 
-	for (j=0; j< 13; j++) {
+    cc = c[i];
 
-		k = c[i] * r[j];
+	for (j=0; j < 12 ; j++) {
+
+		k = cc * r[j];
 
 		f = 0.792552 / (cte * (float) k * fax ) ;  // Hertz
 
