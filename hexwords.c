@@ -4,16 +4,16 @@
 
 int main ( int argc, char * argv[]) {
 
-char *s = "01ABCDEF";
+char m[] = { 'A','B','C','D','E','F' };
 
 int i, j, k, n;
 
-for (i=0; i< 7; i++) {
-for (j=0; j< 7; j++) {
-for (k=0; k< 7; k++) {
-for (n=0; n< 7; n++) {
+for (i=0; i< 6; i++) {
+for (j=0; j< 6; j++) {
+for (k=0; k< 6; k++) {
+for (n=0; n< 6; n++) {
 
-	printf (" %c%c%c%c\n", s[i], s[j], s[k], s[n]);
+	printf (" %c%c%c%c\n", m[i], m[j], m[k], m[n]);
 
 } } } }
 
