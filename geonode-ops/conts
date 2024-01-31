@@ -1,0 +1,8 @@
+ docker ps | cut -f 1 -d ' ' | sed -e ' 1d ' | tr '\n' ' ' > out
+
+ for dk in ` cat out ` ; do
+
+     echo $dk
+     docker exec $dk cat /etc/passwd | grep daemon  
+
+done

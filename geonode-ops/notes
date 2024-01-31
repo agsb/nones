@@ -1,0 +1,91 @@
+
+1) Suid or Guid files
+
+find / -perm /6000 -type f 
+
+On "Debian GNU/Linux 12 (bookworm)"
+
+/usr/sbin/unix_chkpwd
+/usr/bin/wall
+/usr/bin/umount
+/usr/bin/expiry
+/usr/bin/newgrp
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/passwd
+/usr/bin/mount
+/usr/bin/chfn
+/usr/bin/su
+
+On "Ubuntu 22.04.3 LTS (Jammy Jellyfish)"
+
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/sbin/unix_chkpwd
+/usr/sbin/pam_extrausers_chkpwd
+/usr/bin/wall
+/usr/bin/umount
+/usr/bin/expiry
+/usr/bin/newgrp
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/passwd
+/usr/bin/mount
+/usr/bin/chfn
+/usr/bin/su
+/usr/bin/ssh-agent
+/usr/bin/write.ul
+/usr/bin/at
+/usr/bin/crontab
+/usr/bin/dotlock.mailutils
+
+On "Alpine Linux v3.19"
+
+NONE !
+
+2) allow -user trick
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+# allow the container to be started with `--user`
+
+if [[ "$1" == rabbitmq* ]] && [ "$(id -u)" = '0' ]; then
+   if [ "$1" = 'rabbitmq-server' ]; then
+      find /var/lib/rabbitmq \! -user rabbitmq -exec chown rabbitmq '{}' +
+   fi
+
+   exec su-exec rabbitmq "$BASH_SOURCE" "$@"
+fi
+
+3) use tini on docker
+
+NOTE: If you are using Docker 1.13 or greater, Tini is included in Docker
+itself. This includes all versions of Docker CE. To enable Tini, just pass the
+--init flag to docker run.
+
+# on Alpine
+RUN apk add --no-cache tini
+# Tini is now available at /sbin/tini
+ENTRYPOINT ["/sbin/tini", "--"]
+
+# Add Tini
+ENV TINI_VERSION v0.19.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
+# ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini-static /tini
+RUN chmod +x /tini
+
+# Run your program under Tini
+
+ENTRYPOINT ["/tini", "--"]
+
+CMD ["/your/program", "-and", "-its", "arguments"]
+
+# OR 
+
+ENTRYPOINT ["/tini", "--", "/docker-entrypoint.sh"]
+
+# OR docker run your-image /your/program ...
+
