@@ -1,0 +1,1 @@
+for d in `ls ` ; do echo $d ; cd $d &&  sh ../dg ' update ' && cd .. ; done
