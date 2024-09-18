@@ -1,0 +1,10 @@
+
+for file in `ls *.md`; do
+
+    echo $file
+
+    cat $file | sed -e 's;/docs/;/notes/;g' > zzz
+    
+    mv zzz $file
+
+    done
