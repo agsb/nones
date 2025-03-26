@@ -29,6 +29,7 @@ int main ( int argc, char * argv[]) {
 
 // clock in nanosec
 // for 0.9216 MHz 
+// period is 1/f
 #define clock 1.0850695 
 
 int dx, dy;
@@ -49,3 +50,8 @@ for (dy=1; dy < 256; dy++) {
 return (0);
 }
 
+/*
+ best results
+ 10.001 ms   86   25
+ 10.001 ms  214    9
+*/
