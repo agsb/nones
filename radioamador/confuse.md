@@ -13,7 +13,7 @@
 
 ## Morse sequences that can be confused with numbers and signals.
 
-'''
+´´´
 1       .----
         A .-    O ---
         W .--   M --
@@ -98,6 +98,6 @@
         N -.    U ..-
         D -..   A .-
         B -...  T -
-
+´´´
 
 
