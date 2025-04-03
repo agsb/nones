@@ -20,7 +20,10 @@ BEGIN {
         dire = ""
         file = ""
 
+        # lines at table
         line = 0
+
+        # lines per table
         maxlines = 20
 
 
