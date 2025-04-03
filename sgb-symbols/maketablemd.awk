@@ -15,10 +15,11 @@ BEGIN {
         RS = "\r?\n";
 
         # hold parameters
+        
         webs = "https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs"
-        file = ""
         dire = ""
-        head = 0
+        file = ""
+
         line = 0
         maxlines = 20
 
@@ -37,6 +38,8 @@ BEGIN {
 	print " "
 	print " ### EDIÇÃO 2025"
 	print " "
+
+## samples
 # 
 # ### **CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM CARTAS/MAPAS GEOLÓGICOS**
 # 
@@ -69,6 +72,8 @@ BEGIN {
 #
 {
         # do cvs files tricks
+
+        # numbers inside quotation marks with commas create fake fields
         $0 = gensub (/" *([0-9]+),([0-9]+) *"/, " \\1.\\2 ", "g", $0)
 
         # eval it again 

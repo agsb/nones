@@ -18,10 +18,19 @@
 | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
 | --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
 | ![Acamadamento](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00CD-CPRMGeologyRegular.svg "Acamadamento") |17,01 / 6 |PRETO 100% | Acamadamento | | SGB_geologia |
-| ![Acamadamento horizontal](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0049-CPRMGeologyRegular.svg "Acamadamento horizontal") |17,01 / 6 |PRETO 100% | Acamadamento horizontal | | SGB_geologia |
-| ![Acamadamento ígneo](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0043-CPRMGeologyRegular.svg "Acamadamento ígneo") |16 / 5,64 |PRETO 100% | Acamadamento ígneo | | SGB_geologia |
-| ![Acamadamento ígneo horizontal](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0048-CPRMGeologyRegular.svg "Acamadamento ígneo horizontal") |14,17 / 5 |PRETO 100% | Acamadamento ígneo horizontal | | SGB_geologia |
 
 
+### **SIMBOLOGIA DE FÓSSEIS**
 
- | ![Acamadamento](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U00CD-CPRMGeologyRegular.svg "Acamadamento" ) |  17,01  / 6 | PRETO 100% | Acamadamento |
+
+| SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
+| --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
+| ![Acritarcos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B0021-CPRMStratigrPaleontRegular.svg "Acritarcos") |14 / 4,94 |PRETO 100% | Acritarcos | | SGB_geologia |
+
+
+### **SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES**
+
+
+| SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
+| --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
+| ![Bimodalidade de grãos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B00A2-CPRMStratigrPaleontRegular.svg "Bimodalidade de grãos") |12 / 4,23 |PRETO 100% | Bimodalidade de grãos | | SGB_geologia |
