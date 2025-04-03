@@ -1,0 +1,36 @@
+#### MINISTÉRIO DE MINAS E ENERGIA
+#### SECRETARIA DE GEOLOGIA, MINERAÇÃO E TRANSFORMAÇÃO MINERAL
+#### SERVIÇO GEOLÓGICO DO BRASIL – CPRM
+#### DIRETORIA DE GEOLOGIA E RECURSOS MINERAIS
+#### DEPARTAMENTO DE GEOLOGIA
+#### DIVISÃO DE GEOLOGIA BÁSICA
+
+
+# BIBLIOTECA DE SÍMBOLOS
+## CARTOGRAFIA GEOLÓGICA
+
+# EDIÇÃO 2024
+
+
+### **CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM CARTAS/MAPAS GEOLÓGICOS**
+
+
+| SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
+| --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
+| ![Acamadamento](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00CD-CPRMGeologyRegular.svg "Acamadamento") |17,01 / 6 |PRETO 100% | Acamadamento | | SGB_geologia |
+
+
+### **SIMBOLOGIA DE FÓSSEIS**
+
+
+| SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
+| --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
+| ![Acritarcos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B0021-CPRMStratigrPaleontRegular.svg "Acritarcos") |14 / 4,94 |PRETO 100% | Acritarcos | | SGB_geologia |
+
+
+### **SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES**
+
+
+| SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | OBSERVAÇÕES/DESCRIÇÃO | BIBLIOTECA (Style)
+| --------- |:---------:| :---------: | :---------: | :---------: | :---------: |
+| ![Bimodalidade de grãos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B00A2-CPRMStratigrPaleontRegular.svg "Bimodalidade de grãos") |12 / 4,23 |PRETO 100% | Bimodalidade de grãos | | SGB_geologia |

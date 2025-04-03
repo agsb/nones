@@ -1,0 +1,316 @@
+CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM MAPAS GEOLÓGICOS,,,,,
+BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR
+  (size)","TAMANHO
+  (mm)",COR,DESCRIÇÃO
+33,U0021,,"0,25 (traço)",PRETO 100%,Banda de cisalhamento transcorrente dextral (feição linear)
+34,U0022,,"0,25 (traço)",PRETO 100%,Banda de cisalhamento transcorrente sinistral (feição linear)
+35,U0023,,"0,25 (traço)",PRETO 100%,Banda de cisalhamento transcorrente dextral (feição linear)
+36,U0024,,"0,25 (traço)",PRETO 100%,Banda de cisalhamento transcorrente sinistral (feição linear)
+37,U0025,,"0,25 (traço)",PRETO 100%,Banda de cisalhamento (feição linear)
+205,U00CD,"17,01",6,PRETO 100%,Acamadamento
+73,U0049,"17,01",6,PRETO 100%,Acamadamento horizontal
+67,U0043,"17,01",6,PRETO 100%,Acamadamento ígneo
+72,U0048,"14,17",5,PRETO 100%,Acamadamento ígneo horizontal
+74,U004A,"17,01",6,PRETO 100%,Acamadamento ígneo vertical
+84,U0054,"17,01",6,PRETO 100%,Acamadamento invertido
+85,U0055,"17,01",6,PRETO 100%,Acamadamento vertical
+116,U0074,"22,68",8,PRETO 100%,Acamadamento vulcanoclástico
+114,U0072,18,"6,35",PRETO 100%,Acamadamento vulcanoclástico horizontal
+249,U00F9,16,"5,64",PRETO 100%,Acamadamento vulcanoclástico vertical
+58,U003A,"17,01",6,PRETO 100%,Acumulação de cristais
+61,U003D,"17,01",6,PRETO 100%,Bandamento gnáissico
+72,U0048,"17,01",6,PRETO 100%,Bandamento gnáissico horizontal
+64,U0040,"17,01",6,PRETO 100%,Bandamento gnáissico vertical
+60,U003C,"17,01",6,PRETO 100%,Bandamento milonítico
+63,U003F,"17,01",6,PRETO 100%,Bandamento milonítico horizontal
+62,U003E,"17,01",6,PRETO 100%,Bandamento milonítico vertical
+45,U002D,"14,17",5,PRETO 100%,Brecha de falha
+44,U002C,"14,17",5,PRETO 100%,Brecha hitrotermal
+56,U0038,"17,01",6,PRETO 100%,Cavalgamento tipo duplex
+193,U00C1,"17,01",6,PRETO 100%,Cavalgamento tipo leques imbricados
+90,U005A,"17,01",6,PRETO 100%,Cavalgamento tipo pilha antiformal
+91,U005B,"17,01",6,PRETO 100%,Cavalgamentos divergentes tipo pop up
+189,U00BD,"17,01",6,PRETO 100%,Cavalgamentos tipo zona triangular
+88,U0058,"17,01",6,PRETO 100%,Clivagem
+88,U0058,"17,01",6,PRETO 100%,Clivagem ardosiana
+89,U0059,"14,17",5,PRETO 100%,Clivagem ardosiana horizontal
+87,U0057,"17,01",6,PRETO 100%,Clivagem ardosiana vertical
+88,U0058,"17,01",6,PRETO 100%,Clivagem de crenulação
+89,U0059,"14,17",5,PRETO 100%,Clivagem de crenulação horizontal
+87,U0057,"17,01",6,PRETO 100%,Clivagem de crenulação vertical
+88,U0058,"17,01",6,PRETO 100%,Clivagem de fratura
+89,U0059,"14,17",5,PRETO 100%,Clivagem de fratura horizontal
+87,U0057,"17,01",6,PRETO 100%,Clivagem de fratura vertical
+206,U00CE,"17,01",6,PRETO 100%,Clivagem de solução por pressão
+89,U0059,"14,17",5,PRETO 100%,Clivagem horizontal
+87,U0057,"17,01",6,PRETO 100%,Clivagem vertical
+52,U0034,"11,34",4,PRETO 100%,"Corpos intrusivos fora de escala: kimberlitos, carbonatitos"
+246,U00F6,"8,5",3,PRETO 100%,Depósito mineral
+250,U00FA,"17,01",6,PRETO 100%,Dobra horizontal
+101,U0065,"17,01",6,PRETO 100%,Dobra aberta (120° a 70°)
+101,U0065,"17,01",6,PRETO 100%,Dobra apertada (30° a 0°)
+102,U0066,"17,01",6,PRETO 100%,Dobra assimétrica
+185,U00B9,"17,01",6,PRETO 100%,Dobra de arrasto
+101,U0065,"17,01",6,PRETO 100%,Dobra desarmônica
+101,U0065,"17,01",6,PRETO 100%,Dobra em leque
+101,U0065,"17,01",6,PRETO 100%,Dobra fechada (70° a 30°)
+101,U0065,"17,01",6,PRETO 100%,Dobra inclinada
+101,U0065,"17,01",6,PRETO 100%,Dobra intrafolial
+101,U0065,"17,01",6,PRETO 100%,Dobra isoclinal (0°)
+101,U0065,"17,01",6,PRETO 100%,Dobra normal
+101,U0065,"17,01",6,PRETO 100%,Dobra paralela
+178,U00B2,"17,01",6,PRETO 100%,Dobra parasitica tipo Z
+38,U0026,"17,01",6,PRETO 100%,Dobra parasítica tipo M
+39,U0027,"19,84",7,PRETO 100%,Dobra parasítica tipo S
+101,U0065,"17,01",6,PRETO 100%,Dobra ptigmática
+166,U00A6,"17,01",6,PRETO 100%,Dobra reclinada
+214,U00D6,"17,01",6,PRETO 100%,Dobra recumbente
+101,U0065,"17,01",6,PRETO 100%,Dobra sem raiz
+101,U0065,"17,01",6,PRETO 100%,Dobra similar
+101,U0065,"17,01",6,PRETO 100%,Dobra simétrica
+101,U0065,"17,01",6,PRETO 100%,Dobra suave (ângulo interlimbos: 180° a 120°)
+41,U0029,"17,01",6,PRETO 100%,Dobra tipo bainha
+103,U0067,"17,01",6,PRETO 100%,Dobra tipo caixa
+104,U0068,"17,01",6,PRETO 100%,Dobra tipo chevron
+179,U00B3,"17,01",6,PRETO 100%,Dobra tipo kink
+101,U0065,"17,01",6,PRETO 100%,Dobra tipo rollover
+167,U00A7,"17,01",6,PRETO 100%,Dobra vertical
+49,U0031,"17,01",6,PRETO 100%,Eixo de boundins
+49,U0031,"17,01",6,PRETO 100%,Eixo de lápis
+49,U0031,"17,01",6,PRETO 100%,Eixo de mullions
+49,U0031,"17,01",6,PRETO 100%,Eixo de rods
+105,U0069,"17,01",6,PRETO 100%,Entelhamentos de cristais
+180,U00B4,"17,01",6,PRETO 100%,Estrias de deslizamento flexural em dobras
+247,U00F7,"22,68",8,PRETO 100%,Estrias de falha (slinckenlines)
+181,U00B5,"17,01",6,PRETO 100%,Estrias glaciais
+107,U006B,"17,01",6,PRETO 100%,Flor negativa
+108,U006C,"17,01",6,PRETO 100%,Flor positiva
+61,U003D,"17,01",6,PRETO 100%,Foliação
+68,U0044,"17,01",6,PRETO 100%,Foliação de borda de intrusão (ortognaissificação)
+62,U003E,"17,01",6,PRETO 100%,Foliação de transposição
+63,U003F,"17,01",6,PRETO 100%,Foliação de transposição horizontal
+62,U003E,"17,01",6,PRETO 100%,Foliação de transposição vertical
+72,U0048,"17,01",6,PRETO 100%,Foliação horizontal
+60,U003C,"17,01",6,PRETO 100%,Foliação milonítica
+63,U003F,"17,01",6,PRETO 100%,Foliação milonítica horizontal
+62,U003E,"17,01",6,PRETO 100%,Foliação milonítica vertical
+60,U003C,"17,01",6,PRETO 100%,Foliação tipo C
+61,U003D,"17,01",6,PRETO 100%,Foliação tipo C'
+61,U003D,"17,01",6,PRETO 100%,Foliação tipo S
+64,U0040,"17,01",6,PRETO 100%,Foliação vertical
+96,U0060,"17,01",6,PRETO 100%,Fratura
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento P
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento R (Riedel)
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento R' (anti-Riedel)
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento X
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento Y
+70,U0046,"14,17",5,PRETO 100%,Fratura horizontal
+251,U00FB,"22,68",8,PRETO 100%,Fratura vertical
+252,U00FC,"19,84",7,PRETO 100%,Garimpo em atividade
+253,U00FD,"19,84",7,PRETO 100%,Garimpo paralisado
+182,U00B6,"17,01",6,PRETO 100%,Gouge de falha
+96,U0060,"17,01",6,PRETO 100%,Junta
+57,U0039,"17,01",6,PRETO 100%,Junta com superfície plumosa
+95,U005F,"17,01",6,PRETO 100%,Junta de alívio de carga
+96,U0060,"17,01",6,PRETO 100%,Junta de cisalhamento
+109,U006D,"17,01",6,PRETO 100%,Junta estiollítica
+93,U005D,"17,01",6,PRETO 100%,Junta extensional
+71,U0047,"14,17",5,PRETO 100%,Junta extensional horizontal
+71,U0047,"14,17",5,PRETO 100%,Junta extensional vertical
+70,U0046,"14,17",5,PRETO 100%,Junta horizontal
+93,U005D,"17,01",6,PRETO 100%,Junta híbrida
+251,U00FB,"22,68",8,PRETO 100%,Junta vertical
+97,U0061,"17,01",6,PRETO 100%,Juntas colunares
+97,U0061,"17,01",6,PRETO 100%,Juntas de resfriamento
+49,U0031,"17,01",6,PRETO 100%,Lineação B (eixo de dobra)
+162,U00A2,"17,01",6,PRETO 100%,Lineação B (eixo de dobra) horizontal
+164,U00A4,"11,34",4,PRETO 100%,Lineação B (eixo de dobra) vertical
+99,U0063,"17,01",6,PRETO 100%,Lineação de estiramento
+125,U007D,"17,01",6,PRETO 100%,Lineação de estiramento com movimetno dextral indicado
+161,U00A1,"17,01",6,PRETO 100%,Lineação de estiramento horizontal
+126,U007E,"17,01",6,PRETO 100%,Lineação de estiramento horizontal com movimento sinistral indicado
+172,U00AC,"11,34",4,PRETO 100%,Lineação de estiramento vertical
+100,U0064,"17,01",6,PRETO 100%,Lineação de fluxo magnético (minerais e enclaves)
+49,U0031,"17,01",6,PRETO 100%,Lineação de interseção entre acamadamento e clivagem
+49,U0031,"17,01",6,PRETO 100%,Lineação de interseção entre foliações ou clivagens
+50,U0032,"17,01",6,PRETO 100%,Lineação mineral
+165,U00A5,"17,01",6,PRETO 100%,Lineação mineral horizontal
+254,U00FE,"8,5",3,PRETO 100%,Lineação mineral vertical
+51,U0033,"17,01",6,PRETO 100%,Lineção de minerais alongados em veio
+159,U00F6,"19,84",7,PRETO 100%,Mina em atividade
+160,U00A0,"19,84",7,PRETO 100%,Mina paralisada
+169,U00A9,"8,5",3,PRETO 100%,Ocorrência mineral
+110,U006E,"17,01",6,PRETO 100%,Peixes de mica (mica fish)
+53,U0035,"17,01",6,PRETO 100%,Pillow lava
+65,U0041,"17,01",6,PRETO 100%,Plano (superfície) axial de dobra
+75,U004B,"17,01",6,PRETO 100%,Porfiroblastos/porfiroclastos assimétricos tipo delta
+77,U004D,"14,17",5,PRETO 100%,Porfiroblastos/porfiroclastos assimétricos tipo sigma
+79,U004F,"14,17",5,PRETO 100%,Porfiroclastos simétricos
+80,U0050,"14,17",5,PRETO 100%,Redobramento tipo bumerangue
+81,U0051,"11,34",4,PRETO 100%,Redobramento tipo domos e bacias
+82,U0052,"14,17",5,PRETO 100%,Redobramento tipo laço (coaxial)
+47,U002F,"14,17",5,PRETO 100%,Sentido de topo estratigráfico
+204,U00CC,"17,01",6,PRETO 100%,Sentido de transporte tectônico
+196,U00C4,"14,17",5,PRETO 100%,Seta 1
+194,U00C2,"14,17",5,PRETO 100%,Seta 2
+197,U00C5,"14,17",5,PRETO 100%,Seta 3
+199,U00C7,"14,17",5,PRETO 100%,Seta 4
+195,U00C3,"14,17",5,PRETO 100%,Seta 5
+203,U00CB,"17,01",6,PRETO 100%,Seta 6
+202,U00CA,"17,01",6,PRETO 100%,Seta 7
+198,U00C6,"14,17",5,PRETO 100%,Seta 8
+192,U00C0,"14,17",5,PRETO 100%,Simbol Anticlinal
+201,U00C9,"14,17",5,PRETO 100%,Simbol Sinclinal
+83,U0053,"14,17",5,PRETO 100%,Storckwork
+68,U0044,"17,01",6,PRETO 100%,Superfície de fluxo magnético
+163,U00A3,"17,01",6,PRETO 100%,Superfície de fluxo magnético horizontal
+74,U004A,"17,01",6,PRETO 100%,Superfície de fluxo magnético vertical
+99,U0063,"17,01",6,PRETO 100%,Tectonito L
+60,U003C,"17,01",6,PRETO 100%,Tectonito LS
+60,U003C,"17,01",6,PRETO 100%,Tectonito S
+121,U0079,"17,01",6,PRETO 100%,Veio
+121,U0079,"17,01",6,PRETO 100%,Veio de cisalhamento
+188,U00BC,"17,01",6,PRETO 100%,Veio extensional
+120,U0078,"17,01",6,PRETO 100%,Veio híbrido dextral
+255,U00FF,"17,01",6,PRETO 100%,Veio híbrido sinistral
+186,U00BA,"17,01",6,PRETO 100%,Veio irregular
+187,U00BB,"17,01",6,PRETO 100%,Veio laminado
+65,U0041,"19,84",7,PRETO 100%,Xistosidade
+245,U00F5,"14,17",5,PRETO 100%,Xistosidade horizontal
+244,U00F4,"17,01",6,PRETO 100%,Xistosidade vertical
+124,U007C,"19,84",7,PRETO 100%,Zona de veios escalonados (tension gashes)
+124,U007C,"11,34",4,PRETO 100%,Zona de veios multidirecionais
+183,U00B7,"19,84",7,PRETO 100%,Zona extensional tipo pull apart
+,,,,,
+SIMBOLOGIA DE FÓSSEIS,,,,,
+BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR
+  (size)","TAMANHO
+  (mm)",COR,DESCRIÇÃO
+33,U0021,"14,17",5,PRETO 100%,Acritarcos
+34,U0022,"11,34",4,PRETO 100%,Algas
+35,U0023,12,"4,23",PRETO 100%,Amonoides
+36,U0024,"15,59","5,5",PRETO 100%,Anelídeos
+37,U0025,12,"4,23",PRETO 100%,Anfíbios
+38,U0026,"11,34",4,PRETO 100%,Angiospermas
+39,U0027,12,"4,23",PRETO 100%,Aracnídeo
+40,U0028,"11,5","4,05",PRETO 100%,Artropoda
+41,U0029,5,"1,76",PRETO 100%,Belemnoids
+42,U002A,6,"2,11",PRETO 100%,Braquiópodes
+43,U002B,"14,17",5,PRETO 100%,Briozoários
+44,U002C,12,"4,23",PRETO 100%,Cefalópodes
+45,U002D,"11,34",4,PRETO 100%,Cnidários
+46,U002E,"11,34",4,PRETO 100%,Conodontes
+47,U002F,"9,92","3,5",PRETO 100%,Coníferas
+48,U0030,14,"4,93",PRETO 100%,Coprólitoss
+49,U0031,"11,34",4,PRETO 100%,Corais
+50,U0032,"11,34",4,PRETO 100%,Crinóides
+51,U0033,"11,34",4,PRETO 100%,Crustáceos
+52,U0034,7,"2,46",PRETO 100%,Diatomáceas
+53,U0035,"14,17",5,PRETO 100%,Dinoflagelados
+54,U0036,"14,17",5,PRETO 100%,Equinodermos
+55,U0037,"14,17",5,PRETO 100%,Equinoides
+56,U0038,12,"4,23",PRETO 100%,Esponjas
+57,U0039,"9,07","3,2",PRETO 100%,Espículas (poríferos)
+58,U003A,10,"3,52",PRETO 100%,Estromatólitos
+59,U003B,"14,17",5,PRETO 100%,Folhas
+60,U003C,"11,34",4,PRETO 100%,Foraminíferos
+61,U003D,"11,34",4,PRETO 100%,Foraminíferos Planctônicos
+62,U003E,"11,34",4,PRETO 100%,Foraminíferos bentônicos
+63,U003F,"14,17",5,PRETO 100%,Foraminíferos grandes ou fusulinídeos
+64,U0040,"11,34",4,PRETO 100%,Fungos
+65,U0041,"14,17",5,PRETO 100%,Gastrópodes
+66,U0042,"4,82","1,7",PRETO 100%,Graptólitos
+67,U0043,11,"3,88",PRETO 100%,Insetos
+68,U0044,"9,92","3,5",PRETO 100%,Invertebrados
+69,U0045,12,"4,23",PRETO 100%,Macrofósseis
+70,U0046,6,"2,11",PRETO 100%,Madeira fóssil
+71,U0047,"9,92","3,5",PRETO 100%,Mamíferos
+72,U0048,"15,59","5,5",PRETO 100%,Microfósseis
+73,U0049,10,"3,52",PRETO 100%,Moluscos
+74,U004A,8,"2,82",PRETO 100%,Nanofósseis calcário
+75,U004B,10,"3,52",PRETO 100%,Nautilóides
+76,U004C,7,"2,46",PRETO 100%,Ostracodes
+77,U004D,5,"1,76",PRETO 100%,Palinomorfos
+78,U004E,"11,34",4,PRETO 100%,Pegadas
+79,U004F,9,"3,17",PRETO 100%,Peixes
+80,U0050,"9,92","3,5",PRETO 100%,Pelecípodes (Bivalve)
+81,U0051,8,"2,82",PRETO 100%,Perfurações
+82,U0052,11,"3,88",PRETO 100%,Plantas
+83,U0053,"11,34",4,PRETO 100%,Pólen e/ou esporos
+84,U0054,"11,34",4,PRETO 100%,Quitinozoários
+85,U0055,"14,17",5,PRETO 100%,Radiolários
+86,U0056,"12,76","4,5",PRETO 100%,Raízes
+87,U0057,10,"3,52",PRETO 100%,Répteis
+88,U0058,10,"3,52",PRETO 100%,Samambaias
+89,U0059,10,"3,52",PRETO 100%,Silicoflagelados
+90,U005A,9,"3,17",PRETO 100%,Stromatoporoids
+91,U005B,6,"2,11",PRETO 100%,Traços fósseis
+92,U005C,9,"3,17",PRETO 100%,Trilobitas
+93,U005D,"9,07","3,2",PRETO 100%,Vertebrados
+,,,,,
+SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES,,,,,
+BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR
+  (size)","TAMANHO
+  (mm)",COR,DESCRIÇÃO
+162,U00A2,"8,53",3,PRETO 100%,Bimodalidade
+218,U00DA,"5,67",2,PRETO 100%,Birdseye
+163,U00A3,12,"4,23",PRETO 100%,Brecha de colapso
+164,U00A4,7,"2,46",PRETO 100%,Caliche
+165,U00A5,12,"4,23",PRETO 100%,Concreção calcítica
+166,U00A6,12,"4,23",PRETO 100%,Concreção dolomítica
+167,U00A7,12,"4,23",PRETO 100%,Concreção ferro-magnesífera
+168,U00A8,12,"4,23",PRETO 100%,Concreção fosfática
+169,U00A9,12,"4,23",PRETO 100%,Concreção piritosa
+170,U00AA,12,"4,23",PRETO 100%,Concreção silicosa
+171,U00AB,"11,34",4,PRETO 100%,Cone-in-cone
+172,U00AC,"5,67",2,PRETO 100%,Crosta (hardground)
+161,U00A1,14,"4,94",PRETO 100%,Direção de paleocorrente
+223,U00DF,"7,09","2,5",PRETO 100%,Dique clástico
+174,U00AE,"9,92","3,5",PRETO 100%,Estilólitos
+175,U00AF,"5,67",2,PRETO 100%,Estratificação cruzada acanalada
+176,U00B0,7,"2,46",PRETO 100%,Estratificação cruzada de baixo ângulo
+177,U00B1,7,"2,46",PRETO 100%,Estratificação cruzada espinha-de-peixe
+178,U00B2,7,"2,46",PRETO 100%,Estratificação cruzada hummocky
+179,U00B3,"5,67",2,PRETO 100%,Estratificação cruzada sigmoidal
+180,U00B4,"5,39","1,9",PRETO 100%,Estratificação cruzada swaley
+181,U00B5,7,"2,46",PRETO 100%,Estratificação cruzada tabular
+182,U00B6,7,"2,46",PRETO 100%,Estratificação cruzada tangencial
+183,U00B7,"5,67",2,PRETO 100%,Estratificação de maré
+198,U00C6,6,"2,11",PRETO 100%,Estratificação plano-paralela
+186,U00BA,7,"2,46",PRETO 100%,Estrutura convoluta
+184,U00B8,"5,67",2,PRETO 100%,Estrutura de bola e almofada
+187,U00BB,4,"1,41",PRETO 100%,Estrutura de corte e preenchimento
+188,U00BC,7,"2,46",PRETO 100%,Estrutura de escorregamento
+185,U00B9,7,"2,46",PRETO 100%,Estrutura em chama
+189,U00BD,7,"2,46",PRETO 100%,Estrutura em pilar
+190,U00BE,"5,67",2,PRETO 100%,Estrutura em pires
+191,U00BF,7,"2,46",PRETO 100%,Filme de argila
+192,U00C0,7,"2,46",PRETO 100%,Geodo
+193,U00C1,8,"2,82",PRETO 100%,Gradação inversa
+194,U00C2,8,"2,82",PRETO 100%,Gradação normal
+195,U00C3,7,"2,46",PRETO 100%,Greta de contração
+196,U00C4,5,"1,76",PRETO 100%,Imbricação de seixos
+197,U00C5,"12,76","4,5",PRETO 100%,Intraclastos
+199,U00C7,6,"2,11",PRETO 100%,Laminação flaser
+200,U00C8,6,"2,11",PRETO 100%,Laminação linsen
+201,U00C9,6,"2,11",PRETO 100%,Laminação wavy
+202,U00CA,11,"3,88",PRETO 100%,Lineação de partição
+203,U00CB,8,"2,82",PRETO 100%,Maciço
+205,U00CD,6,"2,11",PRETO 100%,Marca de chuva
+206,U00CE,7,"2,46",PRETO 100%,Marca de estria glacial
+204,U00CC,"7,09","2,5",PRETO 100%,Marca de carga
+208,U00D0,7,"2,46",PRETO 100%,Marca ondulada assimétrica
+209,U00D1,7,"2,46",PRETO 100%,Marca ondulada cavalgante
+210,U00D2,7,"2,46",PRETO 100%,Marca ondulada cavalgante crítica
+211,U00D3,7,"2,46",PRETO 100%,Marca ondulada cavalgante em fase
+212,U00D4,8,"2,83",PRETO 100%,Marca ondulada cavalgante subcrítica
+213,U00D5,"6,24","2,2",PRETO 100%,Marca ondulada cavalgante supercrítica
+207,U00CF,"4,5","1,58",PRETO 100%,Marca ondulada de adesão
+214,U00D6,4,"1,41",PRETO 100%,Marca ondulada de interferência
+215,U00D7,"5,39","1,9",PRETO 100%,Marca ondulada simétrica
+217,U00D9,7,"2,46",PRETO 100%,Mud couplet (par de argila)
+219,U00DB,11,"3,88",PRETO 100%,Roseta
+220,U00DC,7,"2,46",PRETO 100%,Seixo pingado
+221,U00DD,11,"3,88",PRETO 100%,Tepee
+222,U00DE,8,"2,83",PRETO 100%,Vulcão de lama
+216,U00D8,,,PRETO 100%,Marca de sola
