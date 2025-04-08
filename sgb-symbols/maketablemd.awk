@@ -29,6 +29,8 @@ BEGIN {
         # lines per table
         maxlines = 20
 
+        # icon size in pixels
+        pxsize = 50
 
 #       common  
 	print " "
@@ -88,7 +90,8 @@ BEGIN {
         # only parse NFZ field lines 
 
         if ( (NF) != NFZ ) {
-                print " <*> " $0 " <*> "
+                # print this line
+                # print " <*> " $0 " <*> "
                 next
                 }
         
@@ -146,6 +149,7 @@ BEGIN {
         gsub ("U","U%2B",$2);
         
         # print out
+        # alter? <a href="url"><img src="http://url.to/image.png" alt="image text" align="center" height="48" width="48" ></a>
 
         print " | ![" $6 "](" webs "/" dire "/" $2 "-CPRM" file " \"" $6 "\" ) | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | " $8 " | "
 
