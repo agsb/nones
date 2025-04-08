@@ -14,6 +14,9 @@ BEGIN {
         # one record by line
         RS = "\r?\n";
 
+        # number of fields
+        NFZ = 9
+
         # hold parameters
         
         webs = "https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs"
@@ -77,14 +80,15 @@ BEGIN {
         # do cvs files tricks
 
         # numbers inside quotation marks with commas create fake fields
-        $0 = gensub (/" *([0-9]+),([0-9]+) *"/, " \\1.\\2 ", "g", $0)
+        $0 = gensub (/" *([0-9]+),([0-9]+)([^"]*)"/, " \\1.\\2\\3", "g", $0)
 
         # eval it again 
         $0 = $0
 
-        # only parse 6 field lines 
+        # only parse NFZ field lines 
 
-        if ( (NF) != 6 ) {
+        if ( (NF) != NFZ ) {
+                print " <*> " $0 " <*> "
                 next
                 }
         
@@ -143,7 +147,7 @@ BEGIN {
         
         # print out
 
-        print " | ![" $6 "](" webs "/" dire "/" $2 "-CPRM" file " \"" $6 "\" ) | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | "
+        print " | ![" $6 "](" webs "/" dire "/" $2 "-CPRM" file " \"" $6 "\" ) | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | " $8 " | "
 
         line = line + 1
 
