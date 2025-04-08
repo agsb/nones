@@ -17,8 +17,6 @@
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
- <*> BYTECODE DECIMAL,UNICODE,"TAMANHO <*> 
- <*>   (points/mm)",,COR,NOMENCLATURA,CÓDIGO UTF-8,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF <*> 
  | ![Acamadamento](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00CD-CPRMGeologyRegular.svg "Acamadamento" ) |  17,01 / 6 | PRETO 100% | Acamadamento | U+00CD |  | 
  | ![Acamadamento horizontal](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0049-CPRMGeologyRegular.svg "Acamadamento horizontal" ) |  17,01 / 6 | PRETO 100% | Acamadamento horizontal | U+0049 |  | 
  | ![Acamadamento ígneo](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0043-CPRMGeologyRegular.svg "Acamadamento ígneo" ) | 16 /  5,64 | PRETO 100% | Acamadamento ígneo | U+0043 |  | 
@@ -61,7 +59,6 @@
  | ![Clivagem de solução por pressão](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00CE-CPRMGeologyRegular.svg "Clivagem de solução por pressão" ) |  17,01 / 6 | PRETO 100% | Clivagem de solução por pressão | U+00CE |  | 
  | ![Clivagem horizontal](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0059-CPRMGeologyRegular.svg "Clivagem horizontal" ) |  14,17 / 5 | PRETO 100% | Clivagem horizontal | U+0059 |  | 
  | ![Clivagem vertical](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0057-CPRMGeologyRegular.svg "Clivagem vertical" ) | 16 /  5,64 | PRETO 100% | Clivagem vertical | U+0057 |  | 
- <*> 52,U0034,10, 3.53,PRETO 100%,"Corpos intrusivos fora de escala: kimberlitos, carbonatitos",,,CPRM_Geology.otf <*> 
  | ![Depósito mineral](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00F6-CPRMGeologyRegular.svg "Depósito mineral" ) | 11 /  3,88 | PRETO 100% | Depósito mineral | U+00F6 |  | 
  | ![Dobra aberta ](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B0065-CPRMGeologyRegular.svg "Dobra aberta " ) | 16 /  5,64 | PRETO 100% | Dobra aberta  | U+0065 | Ângulo de 120° a 70° | 
  
@@ -236,7 +233,6 @@
  | ![Zona de veios multidirecionais](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B007C-CPRMGeologyRegular.svg "Zona de veios multidirecionais" ) |  11,34 / 4 | PRETO 100% | Zona de veios multidirecionais | U+007C |  | 
  | ![Zona extensional tipo pull apart](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/U%2B00B7-CPRMGeologyRegular.svg "Zona extensional tipo pull apart" ) | 18 /  6,35 | PRETO 100% | Zona extensional tipo pull apart | U+00B7 |  | 
  | ![](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/-CPRMGeologyRegular.svg "" ) |  /  |  |  |  |  | 
- <*>  <*> 
  | ![](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/-CPRMGeologyRegular.svg "" ) |  /  |  |  |  |  | 
  
  ## 
@@ -244,9 +240,6 @@
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
- <*> BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR <*> 
- <*>   (size)","TAMANHO <*> 
- <*>   (mm)",COR,DESCRIÇÃO,,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF <*> 
  | ![Acritarcos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B0021-CPRMStratigrPaleontRegular.svg "Acritarcos" ) |  14,17 / 5 | PRETO 100% | Acritarcos | U+0021 |  | 
  | ![Algas](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B0022-CPRMStratigrPaleontRegular.svg "Algas" ) |  11,34 / 4 | PRETO 100% | Algas | U+0022 |  | 
  | ![Amonoides](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B0023-CPRMStratigrPaleontRegular.svg "Amonoides" ) | 12 /  4,23 | PRETO 100% | Amonoides | U+0023 |  | 
@@ -330,9 +323,6 @@
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
- <*> BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR <*> 
- <*>   (size)","TAMANHO <*> 
- <*>   (mm)",COR,DESCRIÇÃO,,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF <*> 
  | ![Bimodalidade de grãos](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B00A2-CPRMStratigrPaleontRegular.svg "Bimodalidade de grãos" ) |  8,53 / 3 | PRETO 100% | Bimodalidade de grãos | U+00A2 |  | 
  | ![Brecha de colapso](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B00A3-CPRMStratigrPaleontRegular.svg "Brecha de colapso" ) | 12 /  4,23 | PRETO 100% | Brecha de colapso | U+00A3 |  | 
  | ![Caliche](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/U%2B00A4-CPRMStratigrPaleontRegular.svg "Caliche" ) | 7 /  2,46 | PRETO 100% | Caliche | U+00A4 |  | 
