@@ -14,6 +14,9 @@ BEGIN {
         # one record by line
         RS = "\r?\n";
 
+        # do not change line, all print must use \n
+        # ORS = " "
+
         # number of fields
         NFZ = 9
 
@@ -94,7 +97,12 @@ BEGIN {
                 # print " <*> " $0 " <*> "
                 next
                 }
-        
+
+        # skip empty lines
+        if ( $1 == "" ) {
+                next
+                }
+
         # match the headers and define variables
 
         if (/CONVENÇÕES /) {
@@ -125,7 +133,7 @@ BEGIN {
                 print " ## ***" titu "***"
 	        print " "
                 print " | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | " 
-                print " | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | "
+                print " | :---------: |:---------:| :---------: | :---------: | :---------: | :---------: | "
                 line = 1
                 next
                 }
@@ -149,9 +157,14 @@ BEGIN {
         gsub ("U","U%2B",$2);
         
         # print out
-        # alter? <a href="url"><img src="http://url.to/image.png" alt="image text" align="center" height="48" width="48" ></a>
 
-        print " | ![" $6 "](" webs "/" dire "/" $2 "-CPRM" file " \"" $6 "\" ) | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | " $8 " | "
+        url = webs "/" dire "/" $2 "-CPRM" file 
+
+        # alter? <a href="url"><img src="http://url.to/image.png" alt="image text" align="center" height="48" width="48" ></a>
+        print "| <a href=\"" url "\"><img src=\"" url "\" alt=\"" $6 "\" align=\"center\" height=\"63%\" width=\"63%\" ></a> | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | " $8 " | "
+
+        # markup does changes in svg sizes
+        #print " | ![" $6 "](" webs "/" dire "/" $2 "-CPRM" file " \"" $6 "\" ) | " $3 " / " $4 " | " $5 " | " $6 " | " utf8 " | " $8 " | "
 
         line = line + 1
 
