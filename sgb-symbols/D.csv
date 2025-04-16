@@ -1,0 +1,314 @@
+CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM MAPAS GEOLÓGICOS,,,,,,,,
+BYTECODE DECIMAL,UNICODE,"TAMANHO
+  (points/mm)",,COR,NOMENCLATURA,CÓDIGO UTF-8,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF
+205,U00CD,"17,01",6,PRETO 100%,Acamadamento,,,CPRM_Geology.otf
+73,U0049,"17,01",6,PRETO 100%,Acamadamento horizontal,,,CPRM_Geology.otf
+67,U0043,16,"5,64",PRETO 100%,Acamadamento ígneo,,,CPRM_Geology.otf
+72,U0048,"14,17",5,PRETO 100%,Acamadamento ígneo horizontal,,,CPRM_Geology.otf
+74,U004A,16,"5,64",PRETO 100%,Acamadamento ígneo vertical,,,CPRM_Geology.otf
+84,U0054,"17,01",6,PRETO 100%,Acamadamento invertido,,,CPRM_Geology.otf
+85,U0055,"17,01",6,PRETO 100%,Acamadamento vertical,,,CPRM_Geology.otf
+116,U0074,"17,01",6,PRETO 100%,Acamadamento vulcanoclástico,,,CPRM_Geology.otf
+114,U0072,17,"5,68",PRETO 100%,Acamadamento vulcanoclástico horizontal,,,CPRM_Geology.otf
+249,U00F9,18,"6,35",PRETO 100%,Acamadamento vulcanoclástico vertical,,,CPRM_Geology.otf
+58,U003A,"17,01",6,PRETO 100%,Acumulação de cristais,,,CPRM_Geology.otf
+61,U003D,"17,01",6,PRETO 100%,Bandamento gnáissico,,,CPRM_Geology.otf
+72,U0048,16,"5,64",PRETO 100%,Bandamento gnáissico horizontal,,,CPRM_Geology.otf
+64,U0040,16,"5,64",PRETO 100%,Bandamento gnáissico vertical,,,CPRM_Geology.otf
+60,U003C,"17,01","5,64",PRETO 100%,Bandamento milonítico,,,CPRM_Geology.otf
+63,U003F,"17,01",6,PRETO 100%,Bandamento milonítico horizontal,,,CPRM_Geology.otf
+62,U003E,"17,01",6,PRETO 100%,Bandamento milonítico vertical,,,CPRM_Geology.otf
+45,U002D,"14,17",5,PRETO 100%,Brecha de falha,,,CPRM_Geology.otf
+44,U002C,"14,17",5,PRETO 100%,Brecha hitrotermal,,,CPRM_Geology.otf
+56,U0038,16,"5,64",PRETO 100%,Cavalgamento tipo duplex,,,CPRM_Geology.otf
+193,U00C1,"17,01",6,PRETO 100%,Cavalgamento tipo leques imbricados,,,CPRM_Geology.otf
+90,U005A,16,"5,64",PRETO 100%,Cavalgamento tipo pilha antiformal,,,CPRM_Geology.otf
+91,U005B,16,"5,64",PRETO 100%,Cavalgamentos divergentes tipo pop up,,,CPRM_Geology.otf
+189,U00BD,"17,01",6,PRETO 100%,Cavalgamentos tipo zona triangular,,,CPRM_Geology.otf
+88,U0058,16,"5,64",PRETO 100%,Clivagem,,,CPRM_Geology.otf
+88,U0058,16,"5,64",PRETO 100%,Clivagem ardosiana,,,CPRM_Geology.otf
+89,U0059,"14,17",5,PRETO 100%,Clivagem ardosiana horizontal,,,CPRM_Geology.otf
+87,U0057,16,"5,64",PRETO 100%,Clivagem ardosiana vertical,,,CPRM_Geology.otf
+88,U0058,16,"5,64",PRETO 100%,Clivagem de crenulação,,,CPRM_Geology.otf
+89,U0059,"14,17",5,PRETO 100%,Clivagem de crenulação horizontal,,,CPRM_Geology.otf
+87,U0057,16,"5,64",PRETO 100%,Clivagem de crenulação vertical,,,CPRM_Geology.otf
+88,U0058,16,"5,64",PRETO 100%,Clivagem de fratura,,,CPRM_Geology.otf
+89,U0059,"17,01",6,PRETO 100%,Clivagem de fratura horizontal,,,CPRM_Geology.otf
+87,U0057,16,"5,64",PRETO 100%,Clivagem de fratura vertical,,,CPRM_Geology.otf
+206,U00CE,"17,01",6,PRETO 100%,Clivagem de solução por pressão,,,CPRM_Geology.otf
+89,U0059,"14,17",5,PRETO 100%,Clivagem horizontal,,,CPRM_Geology.otf
+87,U0057,16,"5,64",PRETO 100%,Clivagem vertical,,,CPRM_Geology.otf
+52,U0034,10,"3,53",PRETO 100%,"Corpos intrusivos fora de escala: kimberlitos, carbonatitos",,,CPRM_Geology.otf
+246,U00F6,11,"3,88",PRETO 100%,Depósito mineral,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra aberta ,,Ângulo de 120° a 70°,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra apertada,,Ângulo de 30° a 0°,CPRM_Geology.otf
+102,U0066,16,"5,64",PRETO 100%,Dobra assimétrica,,,CPRM_Geology.otf
+185,U00B9,16,"5,64",PRETO 100%,Dobra de arrasto,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra desarmônica,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra em leque,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra fechada ,,Ângulo de 70° a 30°,CPRM_Geology.otf
+250,U00FA,16,"5,64",PRETO 100%,Dobra horizontal,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra inclinada,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra intrafolial,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra isoclinal,,Ângulo de 0°,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra normal,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra paralela,,,CPRM_Geology.otf
+38,U0026,16,"5,64",PRETO 100%,Dobra parasítica tipo M,,,CPRM_Geology.otf
+39,U0027,16,"5,64",PRETO 100%,Dobra parasítica tipo S,,,CPRM_Geology.otf
+178,U00B2,16,"5,64",PRETO 100%,Dobra parasitica tipo Z,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra ptigmática,,,CPRM_Geology.otf
+166,U00A6,16,"5,64",PRETO 100%,Dobra reclinada,,,CPRM_Geology.otf
+214,U00D6,16,"5,64",PRETO 100%,Dobra recumbente,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra sem raiz,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra similar,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra simétrica,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra suave ,,Ângulo interlimbos: 80° a 120°,CPRM_Geology.otf
+41,U0029,16,"5,64",PRETO 100%,Dobra tipo bainha,,,CPRM_Geology.otf
+103,U0067,16,"5,64",PRETO 100%,Dobra tipo caixa,,,CPRM_Geology.otf
+104,U0068,16,"5,64",PRETO 100%,Dobra tipo chevron,,,CPRM_Geology.otf
+179,U00B3,16,"5,64",PRETO 100%,Dobra tipo kink,,,CPRM_Geology.otf
+101,U0065,16,"5,64",PRETO 100%,Dobra tipo rollover,,,CPRM_Geology.otf
+167,U00A7,16,"5,64",PRETO 100%,Dobra vertical,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Eixo de boundins,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Eixo de lápis,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Eixo de mullions,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Eixo de rods,,,CPRM_Geology.otf
+105,U0069,16,"5,64",PRETO 100%,Entelhamentos de cristais,,,CPRM_Geology.otf
+180,U00B4,"17,01",6,PRETO 100%,Estrias de deslizamento flexural em dobras,,,CPRM_Geology.otf
+247,U00F7,16,"5,64",PRETO 100%,Estrias de falha (slinckenlines),,,CPRM_Geology.otf
+181,U00B5,16,"5,64",PRETO 100%,Estrias glaciais,,,CPRM_Geology.otf
+107,U006B,16,"5,64",PRETO 100%,Flor negativa,,,CPRM_Geology.otf
+108,U006C,16,"5,64",PRETO 100%,Flor positiva,,,CPRM_Geology.otf
+61,U003D,"17,01",6,PRETO 100%,Foliação,,,CPRM_Geology.otf
+68,U0044,"17,01",6,PRETO 100%,Foliação de borda de intrusão ,,Ortognaissificação,CPRM_Geology.otf
+62,U003E,"17,01",6,PRETO 100%,Foliação de transposição,,,CPRM_Geology.otf
+63,U003F,"17,01",6,PRETO 100%,Foliação de transposição horizontal,,,CPRM_Geology.otf
+62,U003E,"17,01",6,PRETO 100%,Foliação de transposição vertical,,,CPRM_Geology.otf
+72,U0048,"17,01",6,PRETO 100%,Foliação horizontal,,,CPRM_Geology.otf
+60,U003C,"17,01",6,PRETO 100%,Foliação milonítica,,,CPRM_Geology.otf
+63,U003F,"17,01",6,PRETO 100%,Foliação milonítica horizontal,,,CPRM_Geology.otf
+62,U003E,"17,01",6,PRETO 100%,Foliação milonítica vertical,,,CPRM_Geology.otf
+60,U003C,"17,01",6,PRETO 100%,Foliação tipo C,,,CPRM_Geology.otf
+61,U003D,"17,01",6,PRETO 100%,Foliação tipo C',,,CPRM_Geology.otf
+61,U003D,"17,01",6,PRETO 100%,Foliação tipo S,,,CPRM_Geology.otf
+64,U0040,"17,01",6,PRETO 100%,Foliação vertical,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento P,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento R ,,Riedel,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento R',,anti-Riedel,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento X,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Fratura de cisalhamento Y,,,CPRM_Geology.otf
+70,U0046,"14,17",5,PRETO 100%,Fratura horizontal,,,CPRM_Geology.otf
+251,U00FB,"17,01",6,PRETO 100%,Fratura vertical,,,CPRM_Geology.otf
+252,U00FC,13,"4,58",PRETO 100%,Garimpo em atividade,,,CPRM_Geology.otf
+253,U00FD,13,"4,58",PRETO 100%,Garimpo paralisado,,,CPRM_Geology.otf
+182,U00B6,"17,01",6,PRETO 100%,Gouge de falha,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Junta,,,CPRM_Geology.otf
+57,U0039,"17,01",6,PRETO 100%,Junta com superfície plumosa,,,CPRM_Geology.otf
+95,U005F,"17,01",6,PRETO 100%,Junta de alívio de carga,,,CPRM_Geology.otf
+96,U0060,"17,01",6,PRETO 100%,Junta de cisalhamento,,,CPRM_Geology.otf
+109,U006D,"17,01",6,PRETO 100%,Junta estiollítica,,,CPRM_Geology.otf
+93,U005D,"17,01",6,PRETO 100%,Junta extensional,,,CPRM_Geology.otf
+71,U0047,"14,17",5,PRETO 100%,Junta extensional horizontal,,,CPRM_Geology.otf
+71,U0047,"14,17",5,PRETO 100%,Junta extensional vertical,,,CPRM_Geology.otf
+70,U0046,"14,17",5,PRETO 100%,Junta horizontal,,,CPRM_Geology.otf
+93,U005D,"17,01",6,PRETO 100%,Junta híbrida,,,CPRM_Geology.otf
+251,U00FB,13,"4,58",PRETO 100%,Junta vertical,,,CPRM_Geology.otf
+97,U0061,"17,01",6,PRETO 100%,Juntas colunares,,,CPRM_Geology.otf
+97,U0061,"17,01",6,PRETO 100%,Juntas de resfriamento,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Lineação B (eixo de dobra),,,CPRM_Geology.otf
+162,U00A2,"17,01",6,PRETO 100%,Lineação B (eixo de dobra) horizontal,,,CPRM_Geology.otf
+164,U00A4,10,"3,53",PRETO 100%,Lineação B (eixo de dobra) vertical,,,CPRM_Geology.otf
+99,U0063,"17,01",6,PRETO 100%,Lineação de estiramento,,,CPRM_Geology.otf
+125,U007D,"17,01",6,PRETO 100%,Lineação de estiramento com movimetno dextral indicado,,,CPRM_Geology.otf
+161,U00A1,"17,01",6,PRETO 100%,Lineação de estiramento horizontal,,,CPRM_Geology.otf
+126,U007E,"17,01",6,PRETO 100%,Lineação de estiramento horizontal com movimento sinistral indicado,,,CPRM_Geology.otf
+172,U00AC,"11,34",4,PRETO 100%,Lineação de estiramento vertical,,,CPRM_Geology.otf
+100,U0064,"17,01",6,PRETO 100%,Lineação de fluxo magnético (minerais e enclaves),,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Lineação de interseção entre acamadamento e clivagem,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Lineação de interseção entre foliações ou clivagens,,,CPRM_Geology.otf
+49,U0031,"17,01",6,PRETO 100%,Lineação de interseção entre foliações e plano de falha,,,
+50,U0032,"17,01",6,PRETO 100%,Lineação mineral,,,CPRM_Geology.otf
+165,U00A5,"17,01",6,PRETO 100%,Lineação mineral horizontal,,,CPRM_Geology.otf
+254,U00FE,"8,5",3,PRETO 100%,Lineação mineral vertical,,,CPRM_Geology.otf
+51,U0033,"17,01",6,PRETO 100%,Lineção de minerais alongados em veio,,,CPRM_Geology.otf
+246,U00F6,8,"2,82",PRETO 100%,Mina em atividade,,,CPRM_Geology.otf
+160,U00A0,8,"2,82",PRETO 100%,Mina paralisada,,,CPRM_Geology.otf
+169,U00A9,17,"5,99",PRETO 100%,Ocorrência mineral,,,CPRM_Geology.otf
+110,U006E,"17,01",6,PRETO 100%,Mica fish,,,CPRM_Geology.otf
+53,U0035,16,"5,64",PRETO 100%,Pillow lava,,,CPRM_Geology.otf
+65,U0041,"17,01",6,PRETO 100%,Plano (superfície) axial de dobra,,,CPRM_Geology.otf
+75,U004B,16,"5,64",PRETO 100%,Porfiroblastos/porfiroclastos assimétricos tipo delta,,,CPRM_Geology.otf
+77,U004D,13,"4,59",PRETO 100%,Porfiroblastos/porfiroclastos assimétricos tipo sigma,,,CPRM_Geology.otf
+79,U004F,"14,17",5,PRETO 100%,Porfiroclastos simétricos,,,CPRM_Geology.otf
+80,U0050,"14,17",5,PRETO 100%,Redobramento tipo bumerangue,,,CPRM_Geology.otf
+81,U0051,"11,34",4,PRETO 100%,Redobramento tipo domos e bacias,,,CPRM_Geology.otf
+82,U0052,"14,17",5,PRETO 100%,Redobramento tipo laço,,Coaxial,CPRM_Geology.otf
+47,U002F,"14,17",5,PRETO 100%,Sentido de topo estratigráfico,,,CPRM_Geology.otf
+204,U00CC,15,"5,29",PRETO 100%,Sentido de transporte tectônico,,,CPRM_Geology.otf
+204,U00CC,"17,01",6,PRETO 100%,Sentido de vergência de dobra,,Símbolo a ser definido,
+196,U00C4,"14,17",5,PRETO 100%,Seta 1,,,CPRM_Geology.otf
+194,U00C2,"14,17",5,PRETO 100%,Seta 2,,,CPRM_Geology.otf
+197,U00C5,"14,17",5,PRETO 100%,Seta 3,,,CPRM_Geology.otf
+199,U00C7,"14,17",5,PRETO 100%,Seta 4,,,CPRM_Geology.otf
+195,U00C3,"14,17",5,PRETO 100%,Seta 5,,,CPRM_Geology.otf
+203,U00CB,"17,01",6,PRETO 100%,Seta 6,,,CPRM_Geology.otf
+202,U00CA,"17,01",6,PRETO 100%,Seta 7,,,CPRM_Geology.otf
+198,U00C6,"14,17",5,PRETO 100%,Seta 8,,,CPRM_Geology.otf
+192,U00C0,13,"4,59",PRETO 100%,Simbol Anticlinal,,,CPRM_Geology.otf
+201,U00C9,13,"4,59",PRETO 100%,Simbol Sinclinal,,,CPRM_Geology.otf
+83,U0053,"14,17",5,PRETO 100%,Storckwork,,,CPRM_Geology.otf
+68,U0044,"17,01",6,PRETO 100%,Superfície de fluxo magmático,,,CPRM_Geology.otf
+163,U00A3,"17,01",6,PRETO 100%,Superfície de fluxo magmático horizontal,,,CPRM_Geology.otf
+74,U004A,"17,01",6,PRETO 100%,Superfície de fluxo magmático vertical,,,CPRM_Geology.otf
+99,U0063,"17,01",6,PRETO 100%,Tectonito L,,,CPRM_Geology.otf
+60,U003C,"17,01",6,PRETO 100%,Tectonito LS,,,CPRM_Geology.otf
+60,U003C,"17,01",6,PRETO 100%,Tectonito S,,,CPRM_Geology.otf
+121,U0079,"17,01",6,PRETO 100%,Veio,,,CPRM_Geology.otf
+121,U0079,"17,01",6,PRETO 100%,Veio de cisalhamento,,,CPRM_Geology.otf
+188,U00BC,"17,01",6,PRETO 100%,Veio extensional,,,CPRM_Geology.otf
+120,U0078,"17,01",6,PRETO 100%,Veio híbrido dextral,,,CPRM_Geology.otf
+255,U00FF,"17,01",6,PRETO 100%,Veio híbrido sinistral,,,CPRM_Geology.otf
+186,U00BA,"17,01",6,PRETO 100%,Veio irregular,,,CPRM_Geology.otf
+187,U00BB,"17,01",6,PRETO 100%,Veio laminado,,,CPRM_Geology.otf
+65,U0041,17,"5,99",PRETO 100%,Xistosidade,,,CPRM_Geology.otf
+245,U00F5,"14,17",5,PRETO 100%,Xistosidade horizontal,,,CPRM_Geology.otf
+244,U00F4,"17,01",6,PRETO 100%,Xistosidade vertical,,,CPRM_Geology.otf
+124,U007C,"19,84",7,PRETO 100%,Zona de veios escalonados (tension gashes),,,CPRM_Geology.otf
+124,U007C,"11,34",4,PRETO 100%,Zona de veios multidirecionais,,,CPRM_Geology.otf
+183,U00B7,18,"6,35",PRETO 100%,Zona extensional tipo pull apart,,,CPRM_Geology.otf
+,,,,,,,,
+
+,,,,,,,,
+SIMBOLOGIA DE FÓSSEIS,,,,,,,,
+BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR
+  (size)","TAMANHO
+  (mm)",COR,DESCRIÇÃO,,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF
+33,U0021,14,"4,94",PRETO 100%,Acritarcos,,,CPRM_Paleontology.otf
+34,U0022,13,"4,59",PRETO 100%,Algas,,,CPRM_Paleontology.otf
+35,U0023,14,"4,94",PRETO 100%,Amonoides,,,CPRM_Paleontology.otf
+36,U0024,17,"5,99",PRETO 100%,Anelídeos,,,CPRM_Paleontology.otf
+37,U0025,15,"5,23",PRETO 100%,Anfíbios,,,CPRM_Paleontology.otf
+38,U0026,12,"4,23",PRETO 100%,Angiospermas,,,CPRM_Paleontology.otf
+39,U0027,14,"4,94",PRETO 100%,Aracnídeo,,,CPRM_Paleontology.otf
+40,U0028,13,"4,59",PRETO 100%,Artropoda,,,CPRM_Paleontology.otf
+41,U0029,15,"5,23",PRETO 100%,Belemnoids,,,CPRM_Paleontology.otf
+42,U002A,13,"4,59",PRETO 100%,Braquiópodes,,,CPRM_Paleontology.otf
+43,U002B,15,"5,23",PRETO 100%,Briozoários,,,CPRM_Paleontology.otf
+44,U002C,13,"4,59",PRETO 100%,Cefalópodes,,,CPRM_Paleontology.otf
+45,U002D,13,"4,59",PRETO 100%,Cnidários,,,CPRM_Paleontology.otf
+46,U002E,11,"3,88",PRETO 100%,Conodontes,,,CPRM_Paleontology.otf
+47,U002F,14,"4,94",PRETO 100%,Coníferas,,,CPRM_Paleontology.otf
+48,U0030,16,"5,64",PRETO 100%,Coprólitoss,,,CPRM_Paleontology.otf
+49,U0031,12,"4,23",PRETO 100%,Corais,,,CPRM_Paleontology.otf
+50,U0032,11,"3,88",PRETO 100%,Crinóides,,,CPRM_Paleontology.otf
+51,U0033,12,"4,23",PRETO 100%,Crustáceos,,,CPRM_Paleontology.otf
+52,U0034,12,"4,23",PRETO 100%,Diatomáceas,,,CPRM_Paleontology.otf
+53,U0035,16,"5,64",PRETO 100%,Dinoflagelados,,,CPRM_Paleontology.otf
+54,U0036,14,"4,94",PRETO 100%,Equinodermos,,,CPRM_Paleontology.otf
+55,U0037,13,"4,59",PRETO 100%,Equinoides,,,CPRM_Paleontology.otf
+56,U0038,14,"4,94",PRETO 100%,Esponjas,,,CPRM_Paleontology.otf
+57,U0039,14,"4,94",PRETO 100%,Espículas (poríferos),,,CPRM_Paleontology.otf
+58,U003A,11,"3,88",PRETO 100%,Estromatólitos,,,CPRM_Paleontology.otf
+59,U003B,16,"5,64",PRETO 100%,Folhas,,,CPRM_Paleontology.otf
+60,U003C,12,"4,23",PRETO 100%,Foraminíferos,,,CPRM_Paleontology.otf
+61,U003D,10,"3,59",PRETO 100%,Foraminíferos Planctônicos,,,CPRM_Paleontology.otf
+62,U003E,10,"3,59",PRETO 100%,Foraminíferos bentônicos,,,CPRM_Paleontology.otf
+63,U003F,14,"4,94",PRETO 100%,Foraminíferos grandes ou fusulinídeos,,,CPRM_Paleontology.otf
+64,U0040,12,"4,23",PRETO 100%,Fungos,,,CPRM_Paleontology.otf
+65,U0041,15,"5,23",PRETO 100%,Gastrópodes,,,CPRM_Paleontology.otf
+66,U0042,16,"5,64",PRETO 100%,Graptólitos,,,CPRM_Paleontology.otf
+67,U0043,13,"4,59",PRETO 100%,Insetos,,,CPRM_Paleontology.otf
+68,U0044,13,"4,59",PRETO 100%,Invertebrados,,,CPRM_Paleontology.otf
+69,U0045,14,"4,94",PRETO 100%,Macrofósseis,,,CPRM_Paleontology.otf
+70,U0046,14,"4,94",PRETO 100%,Madeira fóssil,,,CPRM_Paleontology.otf
+71,U0047,16,"5,64",PRETO 100%,Mamíferos,,,CPRM_Paleontology.otf
+72,U0048,12,"4,23",PRETO 100%,Microfósseis,,,CPRM_Paleontology.otf
+73,U0049,11,"3,88",PRETO 100%,Moluscos,,,CPRM_Paleontology.otf
+74,U004A,11,"3,88",PRETO 100%,Nanofósseis calcário,,,CPRM_Paleontology.otf
+75,U004B,13,"4,59",PRETO 100%,Nautilóides,,,CPRM_Paleontology.otf
+76,U004C,13,"4,59",PRETO 100%,Ostracodes,,,CPRM_Paleontology.otf
+77,U004D,13,"4,59",PRETO 100%,Palinomorfos,,,CPRM_Paleontology.otf
+78,U004E,12,"4,23",PRETO 100%,Pegadas,,,CPRM_Paleontology.otf
+79,U004F,15,"5,29",PRETO 100%,Peixes,,,CPRM_Paleontology.otf
+80,U0050,12,"4,23",PRETO 100%,Pelecípodes (Bivalve),,,CPRM_Paleontology.otf
+81,U0051,14,"4,94",PRETO 100%,Perfurações,,,CPRM_Paleontology.otf
+82,U0052,14,"4,94",PRETO 100%,Plantas,,,CPRM_Paleontology.otf
+83,U0053,13,"4,59",PRETO 100%,Pólen e/ou esporos,,,CPRM_Paleontology.otf
+84,U0054,13,"4,59",PRETO 100%,Quitinozoários,,,CPRM_Paleontology.otf
+85,U0055,15,"5,29",PRETO 100%,Radiolários,,,CPRM_Paleontology.otf
+86,U0056,13,"4,59",PRETO 100%,Raízes,,,CPRM_Paleontology.otf
+87,U0057,11,"3,88",PRETO 100%,Répteis,,,CPRM_Paleontology.otf
+88,U0058,14,"4,94",PRETO 100%,Samambaias,,,CPRM_Paleontology.otf
+89,U0059,12,"4,23",PRETO 100%,Silicoflagelados,,,CPRM_Paleontology.otf
+90,U005A,11,"3,88",PRETO 100%,Stromatoporoids,,,CPRM_Paleontology.otf
+91,U005B,13,"4,59",PRETO 100%,Traços fósseis,,,CPRM_Paleontology.otf
+92,U005C,11,"3,88",PRETO 100%,Trilobitas,,,CPRM_Paleontology.otf
+93,U005D,13,"4,59",PRETO 100%,Vertebrados,,,CPRM_Paleontology.otf
+,,,,,,,,
+SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES,,,,,,,,
+BYTECODE DECIMAL,UNICODE,"SYMBOL SELECTOR
+  (size)","TAMANHO
+  (mm)",COR,DESCRIÇÃO,,OBSERVAÇÕES/DESCRIÇÃO,NOME ARQUIVO OTF
+162,U00A2,12,"4,23",PRETO 100%,Bimodalidade de grãos,,,CPRM_Sedimentary.otf
+163,U00A3,12,"4,23",PRETO 100%,Brecha de colapso,,,CPRM_Sedimentary.otf
+164,U00A4,11,"3,88",PRETO 100%,Caliche,,,CPRM_Sedimentary.otf
+165,U00A5,11,"3,88",PRETO 100%,Concreção calcítica,,,CPRM_Sedimentary.otf
+166,U00A6,11,"3,88",PRETO 100%,Concreção dolomítica,,,CPRM_Sedimentary.otf
+167,U00A7,11,"3,88",PRETO 100%,Concreção ferro-magnesífera,,,CPRM_Sedimentary.otf
+168,U00A8,11,"3,88",PRETO 100%,Concreção fosfática,,,CPRM_Sedimentary.otf
+169,U00A9,11,"3,88",PRETO 100%,Concreção piritosa,,,CPRM_Sedimentary.otf
+170,U00AA,11,"3,88",PRETO 100%,Concreção silicosa,,,CPRM_Sedimentary.otf
+171,U00AB,12,"4,23",PRETO 100%,Cone-in-cone,,,CPRM_Sedimentary.otf
+172,U00AC,16,"5,66",PRETO 100%,Crosta (hardground),,,CPRM_Sedimentary.otf
+223,U00DF,12,"4,23",PRETO 100%,Dique clástico,,,CPRM_Sedimentary.otf
+161,U00A1,11,"3,88",PRETO 100%,Direção de paleocorrente,,Vetor médio - n = número de medidas,CPRM_Sedimentary.otf
+174,U00AE,12,"4,23",PRETO 100%,Estilólitos,,,CPRM_Sedimentary.otf
+175,U00AF,12,"4,23",PRETO 100%,Estratificação cruzada acanalada,,,CPRM_Sedimentary.otf
+176,U00B0,11,"3,88",PRETO 100%,Estratificação cruzada de baixo ângulo,,,CPRM_Sedimentary.otf
+177,U00B1,12,"4,23",PRETO 100%,Estratificação cruzada espinha-de-peixe,,,CPRM_Sedimentary.otf
+178,U00B2,12,"4,23",PRETO 100%,Estratificação cruzada hummocky,,,CPRM_Sedimentary.otf
+179,U00B3,14,"4,94",PRETO 100%,Estratificação cruzada sigmoidal,,,CPRM_Sedimentary.otf
+180,U00B4,12,"4,23",PRETO 100%,Estratificação cruzada swaley,,,CPRM_Sedimentary.otf
+181,U00B5,10,"3,59",PRETO 100%,Estratificação cruzada tabular,,,CPRM_Sedimentary.otf
+182,U00B6,14,"4,94",PRETO 100%,Estratificação cruzada tangencial,,,CPRM_Sedimentary.otf
+183,U00B7,14,"4,94",PRETO 100%,Estratificação de maré,,,CPRM_Sedimentary.otf
+186,U00BA,13,"4,59",PRETO 100%,Estrutura convoluta,,,CPRM_Sedimentary.otf
+184,U00B8,13,"4,59",PRETO 100%,Estrutura de bola e almofada,,,CPRM_Sedimentary.otf
+187,U00BB,13,"4,59",PRETO 100%,Estrutura de corte e preenchimento,,,CPRM_Sedimentary.otf
+188,U00BC,13,"4,59",PRETO 100%,Estrutura de escorregamento,,,CPRM_Sedimentary.otf
+185,U00B9,13,"4,59",PRETO 100%,Estrutura em chama,,,CPRM_Sedimentary.otf
+189,U00BD,11,"3,88",PRETO 100%,Estrutura em pilar,,,CPRM_Sedimentary.otf
+190,U00BE,12,"4,23",PRETO 100%,Estrutura em pires,,,CPRM_Sedimentary.otf
+191,U00BF,11,"3,88",PRETO 100%,Filme de argila,,,CPRM_Sedimentary.otf
+192,U00C0,10,"3,53",PRETO 100%,Geodo,,,CPRM_Sedimentary.otf
+193,U00C1,8,"2,82",PRETO 100%,Gradação inversa,,,CPRM_Sedimentary.otf
+194,U00C2,8,"2,82",PRETO 100%,Gradação normal,,,CPRM_Sedimentary.otf
+195,U00C3,13,"4,59",PRETO 100%,Greta de contração,,,CPRM_Sedimentary.otf
+196,U00C4,12,"4,23",PRETO 100%,Imbricação de seixos,,,CPRM_Sedimentary.otf
+197,U00C5,12,"4,23",PRETO 100%,Intraclastos,,,CPRM_Sedimentary.otf
+199,U00C7,11,"3,88",PRETO 100%,Laminação flaser,,,CPRM_Sedimentary.otf
+200,U00C8,16,"5,64",PRETO 100%,Laminação linsen,,,CPRM_Sedimentary.otf
+201,U00C9,15,"5,23",PRETO 100%,Laminação wavy,,,CPRM_Sedimentary.otf
+198,U00C6,12,"4,23",PRETO 100%,Laminação/Estratificação plano-paralela,,l - laminação e - estratificação,CPRM_Sedimentary.otf
+202,U00CA,12,"4,23",PRETO 100%,Lineação de partição,,,CPRM_Sedimentary.otf
+203,U00CB,12,"4,23",PRETO 100%,Maciço,,,CPRM_Sedimentary.otf
+204,U00CC,12,"4,23",PRETO 100%,Marca de carga,,,CPRM_Sedimentary.otf
+205,U00CD,13,"4,59",PRETO 100%,Marca de chuva,,,CPRM_Sedimentary.otf
+206,U00CE,12,"4,23",PRETO 100%,Marca de estria glacial,,,CPRM_Sedimentary.otf
+216,U00D8,12,"4,23",PRETO 100%,Marca de sola,,,CPRM_Sedimentary.otf
+208,U00D0,12,"4,23",PRETO 100%,Marca ondulada assimétrica,,,CPRM_Sedimentary.otf
+209,U00D1,13,"4,59",PRETO 100%,Marca ondulada cavalgante,,,CPRM_Sedimentary.otf
+210,U00D2,14,"4,94",PRETO 100%,Marca ondulada cavalgante crítica,,,CPRM_Sedimentary.otf
+211,U00D3,11,"3,88",PRETO 100%,Marca ondulada cavalgante em fase,,,CPRM_Sedimentary.otf
+212,U00D4,11,"3,88",PRETO 100%,Marca ondulada cavalgante subcrítica,,,CPRM_Sedimentary.otf
+213,U00D5,13,"4,59",PRETO 100%,Marca ondulada cavalgante supercrítica,,,CPRM_Sedimentary.otf
+207,U00CF,14,"4,94",PRETO 100%,Marca ondulada de adesão,,,CPRM_Sedimentary.otf
+214,U00D6,15,"5,23",PRETO 100%,Marca ondulada de interferência,,,CPRM_Sedimentary.otf
+215,U00D7,14,"4,94",PRETO 100%,Marca ondulada simétrica,,,CPRM_Sedimentary.otf
+217,U00D9,14,"4,94",PRETO 100%,Mud couplet ,,,CPRM_Sedimentary.otf
+218,U00DA,13,"4,59",PRETO 100%,Olho de Pássaro (birdseyes),,,CPRM_Sedimentary.otf
+219,U00DB,11,"3,88",PRETO 100%,Roseta,,,CPRM_Sedimentary.otf
+220,U00DC,15,"5,23",PRETO 100%,Seixo pingado,,,CPRM_Sedimentary.otf
+221,U00DD,10,"3,53",PRETO 100%,Tepee,,,CPRM_Sedimentary.otf
+222,U00DE,11,"3,88",PRETO 100%,Vulcão de lama,,,CPRM_Sedimentary.otf
