@@ -10,8 +10,12 @@
 #
 #   use:  awk -f splits.awk < json_file_with_arrays_of_objects
 #
+# the file structure have objects 
+# { ... [ { ...object ...}, { ...object ...}, ...] ...}
+#
 # vide disclaimer at end of this file.
 
+# version 0.1.0 05/07/2025
 #
 # define parameters
 #
@@ -24,6 +28,8 @@ BEGIN {
     cnt = 0;
 
     pares = 0
+
+    array = 0
 
     new = 0
 
@@ -47,7 +53,17 @@ BEGIN {
    for (i = 1; i <= NF; i++) {
 
     cc = $i
-    
+
+    if (cc == "[") {
+        array++;
+        }
+
+    if (cc == "]") {
+        array--;
+        }
+
+    if (array == 0) continue
+
     if (cc == "{") {
         pares++;
         }
@@ -56,7 +72,7 @@ BEGIN {
         pares--;
         }
     
-    if (pares == 1 && new == 1) {
+    if (pares == 0 && new == 1) {
 
         # end of file
 
@@ -119,7 +135,7 @@ BEGIN {
 
         }
 
-    if (pares == 2 && new == 0) {
+    if (pares == 1 && new == 0) {
         
         err = (cmd_uuid | getline uuid)
 
