@@ -35,6 +35,9 @@ BEGIN {
 
     hsh = "sha256sum -b "
 
+    # for additional protection do this as root
+    # when files at rest directory.
+    # und = "chattr +i "
 }
 
 #
