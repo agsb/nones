@@ -3,7 +3,7 @@
 # agsb@2025
 #
 # decompose json arrays into files named by random UUID.jsn, 
-# makes the sha256sum of content in files UUID.hsh and
+# makes the sha256sum of content in files UUID.cmd_hash and
 # a reference file for URIs as UUID.urs
 #
 # UUID and DATE are appended at start of each jsn file
@@ -21,22 +21,22 @@ BEGIN {
 
     FS = "";
 
-    SUBSEP = " ";
-
     cnt = 0;
 
     pares = 0
 
     new = 0
 
-    cmd = "uuid -F STR -1 -v4"
+    cmd_uuid = "uuid -F STR -1 -v4"
 
-    dat = "date --iso-8601=s"
+    cmd_date = "date --iso-8601=s"
 
-    hsh = "sha256sum -b "
+    cmd_hash = "sha256sum -b "
+
+    cmd_chmod = "chmod 00644 "
 
     # for additional protection do this as root
-    # when files at rest directory.
+    # when files at final rest directory.
     # und = "chattr +i "
 }
 
@@ -58,15 +58,17 @@ BEGIN {
     
     if (pares == 1 && new == 1) {
 
-        if (new == 1) printf "} " > filejsn
+        # end of file
 
-        close (filejsn)
+        if (new == 1) printf "} " > file
 
-        # make the hash
+        close (file)
 
-        hash = hsh filejsn
+        # make the hash file
 
-        err = (hash | getline hast)
+        doit = cmd_hash file
+
+        err = (doit | getline hash)
 
         if (err != 1) {
 
@@ -76,34 +78,56 @@ BEGIN {
             
             }
 
-        filehsh = file ".hsh"
+        file = uuid ".hsh"
 
-        print hast > filehsh
+        print hash > file
 
-        close (filehsh)
+        close (file)
 
-        fileurs = file ".urs"
+        # make the uri file
 
-        print "\"UUID\" : \"" file "\"," > fileurs
-        print "\"DATE\" : \"" date "\"," > fileurs
+        file = uuid ".urs"
 
-        close (fileurs)
+        print "\"UUID\" : \"" uuid "\"," > file
+        print "\"DATE\" : \"" date "\"," > file
 
-        new = 0
+        close (file)
+
+        # make the mode
+
+        doit = cmd_chmod " -v " uuid "*"
+
+        err = (doit | getline the)
+
+        if (err != 1) {
+
+            print "shell error", err
+
+            exit
+            
+            }
+    
+        # log it
 
         cnt = cnt + 1
+
+        print cnt, uuid, date
+
+        # prepare next file
+
+        new = 0
 
         }
 
     if (pares == 2 && new == 0) {
         
-        err = (cmd | getline file)
+        err = (cmd_uuid | getline uuid)
 
-        close (cmd)
+        close (cmd_uuid)
 
-        err = (dat | getline date)
+        err = (cmd_date | getline date)
 
-        close (dat)
+        close (cmd_date)
 
         if (err != 1) {
 
@@ -113,16 +137,18 @@ BEGIN {
             
             }
 
+        # make a file
+
+        file = uuid ".jsn"
+
+        print "\"UUID\" : \"" uuid "\"," > file
+        print "\"DATE\" : \"" date "\"," > file
+
         new = 1
     
-        filejsn = file ".jsn"
-
-        print "\"UUID\" : \"" file "\"," > filejsn
-        print "\"DATE\" : \"" date "\"," > filejsn
-
         }
 
-    if (new == 1) printf "%c", cc > filejsn
+    if (new == 1) printf "%c", cc > file
 
     }
 
@@ -130,7 +156,6 @@ BEGIN {
 
 
 END {
-
 
     print " done " cnt " files."
 
