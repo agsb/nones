@@ -164,7 +164,8 @@ BEGIN {
     
         }
 
-    if (new == 1) printf "%c", cc > file
+    # must append a space or it is taked as binary
+    if (new == 1) printf "%c", cc " " > file
 
     }
 
