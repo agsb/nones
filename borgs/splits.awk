@@ -78,7 +78,7 @@ BEGIN {
 
         if (new == 1) printf "} " > file
 
-        close (file)
+        close(file)
 
         # make the hash file
 
@@ -98,7 +98,7 @@ BEGIN {
 
         print hash > file
 
-        close (file)
+        close(file)
 
         # make the uri file
 
@@ -107,7 +107,7 @@ BEGIN {
         print "\"UUID\" : \"" uuid "\"," > file
         print "\"DATE\" : \"" date "\"," > file
 
-        close (file)
+        close(file)
 
         # make the mode
 
@@ -139,11 +139,11 @@ BEGIN {
         
         err = (cmd_uuid | getline uuid)
 
-        close (cmd_uuid)
+        close(cmd_uuid)
 
         err = (cmd_date | getline date)
 
-        close (cmd_date)
+        close(cmd_date)
 
         if (err != 1) {
 
