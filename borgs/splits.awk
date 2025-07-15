@@ -39,7 +39,7 @@ BEGIN {
 
     cmd_hash = "sha256sum -b "
 
-    cmd_chmod = "chmod 00644 "
+    cmd_fmod = "chmod 00644 "
 
     # for additional protection do this as root
     # when files at final rest directory.
@@ -76,7 +76,7 @@ BEGIN {
 
         # end of file
 
-        if (new == 1) printf "} " > file
+        printf "} " > file
 
         close(file)
 
@@ -85,6 +85,8 @@ BEGIN {
         doit = cmd_hash file
 
         err = (doit | getline hash)
+        
+        close(doit)
 
         if (err != 1) {
 
@@ -111,9 +113,11 @@ BEGIN {
 
         # make the mode
 
-        doit = cmd_chmod " -v " uuid "*"
+        doit = cmd_fmod " -v " uuid "*"
 
         err = (doit | getline the)
+
+        close(doit)
 
         if (err != 1) {
 
@@ -122,7 +126,7 @@ BEGIN {
             exit
             
             }
-    
+
         # log it
 
         cnt = cnt + 1
@@ -140,6 +144,14 @@ BEGIN {
         err = (cmd_uuid | getline uuid)
 
         close(cmd_uuid)
+
+        if (err != 1) {
+
+            print "shell error", err
+
+            exit
+            
+            }
 
         err = (cmd_date | getline date)
 
