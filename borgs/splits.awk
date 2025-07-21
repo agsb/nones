@@ -33,6 +33,8 @@ BEGIN {
 
     new = 0
 
+    quot = 0
+
     cmd_uuid = "uuid -F STR -1 -v4"
 
     cmd_date = "date --iso-8601=s"
@@ -79,6 +81,14 @@ BEGIN {
         printf "} " > file
 
         close(file)
+
+        if (err != 1) {
+
+            print "shell error", err
+
+            exit
+            
+            }
 
         # make the hash file
 
@@ -177,7 +187,18 @@ BEGIN {
         }
 
     # must append a space or it is taked as binary
-    if (new == 1) printf "%c", cc " " > file
+    if (new == 1) {
+
+        printf "%c", cc " " > file
+
+        if (cc == "\"") {
+                if (quot == 0) quot = 1
+                else quot = 0
+                }
+
+        if (cc == "," && quot == 0) { print "" > file }
+
+        }
 
     }
 
