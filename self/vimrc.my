@@ -1,0 +1,79 @@
+" @ agsb 2021 my vim:
+
+set ts=8
+set sw=8
+set tw=72
+
+set syntax 
+set nocindent
+set smartindent
+setlocal smarttab
+
+setlocal expandtab
+setlocal softtabstop=4
+
+" Make keyword matching better (so w and friends work better). Since in Forth
+" anything can be a keyword, let's let Vim know that. @ means all alphanumeric
+" (including international characters); then we add all the printable ASCII,
+" including punctuation.
+
+setlocal iskeyword=@,!-~,^(,^),^-,^_
+
+%
+" autodetect files from name, and set filetype
+
+au BufRead,BufNewFile *.md set filetype=markdown
+
+au BufRead,BufNewFile *.S set filetype=asm
+
+au BufRead,BufNewFile *.s set filetype=asm
+
+au BufRead,BufNewFile *.fs set filetype=forth
+
+au BufRead,BufNewFile *.f set filetype=forth
+
+" @https://stevelosh.com/blog/2010/09/coming-home-to-vim/
+
+filetype plugin indent on
+
+set nocompatible
+
+set modelines=0
+set tabstop=8
+set shiftwidth=8
+set softtabstop=8
+set expandtab
+set encoding=utf-8
+set scrolloff=4
+set autoindent
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
+set relativenumber
+set undofile
+
+set wrap
+set formatoptions=qrn1
+set textwidth=72
+set colorcolumn=72
+
+inoremap jj <ESC>
+
+let mapleader=","
+
+set timeoutlen=800
+
+set undodir=~/.vim/.undo//
+
+set directory=~/.vim/.swap//
+
+set backupdir=~/.vim/.back//
+
