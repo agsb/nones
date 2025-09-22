@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for d in `find . -maxdepth 1 -type d -regex '\./.*' ` ; do echo $d ; cd $d && sh ../dg ' update ' ; cd .. ; done
