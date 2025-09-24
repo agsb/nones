@@ -1,0 +1,8 @@
+
+awk -f  keyscts.awk < $1 > z 
+
+grep '-' z | sort -n -r -k 3 > z1 
+grep '=' z | sort -n -r -k 3 > z2 
+grep '#' z | sort -n -r -k 3 > z3 
+
+grep '?' z | sort -n -k 2 > z4 

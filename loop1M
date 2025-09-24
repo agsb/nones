@@ -1,0 +1,22 @@
+#/usr/bin/bash
+# creates uuid files of 4k random bytes
+# agsb@ 2025
+
+FILES=1000000
+
+# clean
+rm *-*
+
+# mark init
+touch in0
+
+# generate files 
+for n in $( seq 1 ${FILES} ) ; do
+    echo $n
+    # each dd is 8 * 512 bytes
+    dd if=/dev/random of=`uuid` count=8
+done
+
+# mark ends
+touch in1
+

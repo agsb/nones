@@ -1,0 +1,4 @@
+#/bin/bash
+
+rsync -hvrltD --delete --modify-window=1 --progress $1 $2
+
