@@ -1,0 +1,21 @@
+Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM010-2EP1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0x0aee1acb
+
+Device     Boot      Start        End    Sectors   Size Id Type
+/dev/sdb1             2048     249855     247808   121M ef EFI (FAT-12/16/32)
+/dev/sdb2           249856  134467583  134217728    64G 83 Linux
+/dev/sdb3        134467584  268685311  134217728    64G 83 Linux
+/dev/sdb4        268685312 1953525167 1684839856 803.4G  5 Extended
+/dev/sdb5        268687360  402905087  134217728    64G 83 Linux
+/dev/sdb6        402907136  537124863  134217728    64G 83 Linux
+/dev/sdb7        537126912  671344639  134217728    64G 83 Linux
+/dev/sdb8        671346688  805564415  134217728    64G 83 Linux
+/dev/sdb9        805566464 1074001919  268435456   128G 83 Linux
+/dev/sdb10      1074003968 1342439423  268435456   128G 83 Linux
+/dev/sdb11      1342441472 1879312383  536870912   256G 83 Linux
+/dev/sdb12      1879314432 1953525167   74210736  35.4G 83 Linux
