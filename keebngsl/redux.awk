@@ -60,21 +60,18 @@ END {
                 n = split(ws, its, "")
 
                 # digraphs
-                #if (m < 2) continue;
                 for ( i = 1; i < n; i++ ) {
                         k = its[i] its[i+1]
                         sumd[k] += 0.0 + words[w]
                         }
 
                 # trigraphs
-                #if (m < 3) continue;
                 for ( i = 1; i < n - 1; i++ ) {
                         k = its[i] its[i+1] its[i+2]
                         sumt[k] += 0.0 + words[w]
                         }
 
                 # quadgraphs
-                #if (m < 4) continue;
                 for ( i = 1; i < n - 2; i++ ) {
                         k = its[i] its[i+1] its[i+2] its[i+3]
                         sumq[k] += 0.0 + words[w]
@@ -83,22 +80,44 @@ END {
 
                 }
 
+        # percent frequencies        
+
+        qts = 0
+        for ( k in sums) {
+                qts += sums[k]
+                }
+        
+        qtd = 0        
+        for ( k in sumd) {
+                qtd += sumd[k]
+                }
+        
+        qtt = 0        
+        for ( k in sumt) {
+                qtt += sumt[k]
+                }
+                
+        qtq = 0        
+        for ( k in sumq) {
+                qtq += sumq[k]
+                }
+                
         # show frequencies        
                 
         for ( k in sums) {
-                print "- " k " " sums[k]
+                print "- " k " " (sums[k] * 100.0 / qts)
                 }
                 
         for ( k in sumd) {
-                print "= [" k "] " sumd[k]
+                print "= [" k "] " (sumd[k] * 100.0 / qtd)
                 }
                 
         for ( k in sumt) {
-                print "+ [" k "] " sumt[k]
+                print "+ [" k "] " (sumt[k] * 100.0 / qtt)
                 }
                 
         for ( k in sumq) {
-                print "# [" k "] " sumq[k]
+                print "# [" k "] " (sumq[k] * 100.0 / qtq)
                 }
                 
         # no exists
