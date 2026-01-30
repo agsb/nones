@@ -1,9 +1,7 @@
 #! /bin/bash
 
 # clean lines
-cat NGSL_12_stats.csv | \
-cut -f 1,4 -d',' | \
-tr ',[:upper:]' ' [:lower:]' > z0
+cat NGSL_12_stats.csv | cut -f 1,4 -d',' | tr ',' ' ' > z0
 
 # frequencies
 awk -f redux.awk < z0 > z1

@@ -1,6 +1,6 @@
 #!/usr/bin/awk
-
-# some frequencies from converted NGSL list.csv as 'lemma fppm'
+# agsb@ 2026/02
+# frequencies from NGSL 1.2 list.csv converted to 'lemma fppm'
 
 BEGIN {
 
@@ -20,6 +20,9 @@ BEGIN {
 
         # skip comments
         if ($1 == "#") next;
+
+        # wise
+        $0 = tolower ($0)
 
         words[$1] = $2
         
@@ -41,7 +44,7 @@ END {
                 
                 }
 
-        # make frequencies from ppm or perc
+        # make frequencies from ppm (or perc)
 
         for ( w in words) {
 
@@ -57,22 +60,22 @@ END {
                 n = split(ws, its, "")
 
                 # digraphs
-                if (m < 2) continue;
-                for ( i = 1; i <= n; i++ ) {
+                #if (m < 2) continue;
+                for ( i = 1; i < n; i++ ) {
                         k = its[i] its[i+1]
                         sumd[k] += 0.0 + words[w]
                         }
 
                 # trigraphs
-                if (m < 3) continue;
-                for ( i = 1; i <= n - 1; i++ ) {
+                #if (m < 3) continue;
+                for ( i = 1; i < n - 1; i++ ) {
                         k = its[i] its[i+1] its[i+2]
                         sumt[k] += 0.0 + words[w]
                         }
 
                 # quadgraphs
-                if (m < 4) continue;
-                for ( i = 1; i <= n - 2; i++ ) {
+                #if (m < 4) continue;
+                for ( i = 1; i < n - 2; i++ ) {
                         k = its[i] its[i+1] its[i+2] its[i+3]
                         sumq[k] += 0.0 + words[w]
                         }
