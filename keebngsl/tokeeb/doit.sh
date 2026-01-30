@@ -3,24 +3,29 @@
 # clean lines
 cat NGSL_12_stats.csv | \
 cut -f 1,4 -d',' | \
-tr ',[:upper:]' ' [:lower:]' > e0
+tr ',[:upper:]' ' [:lower:]' > z0
 
 # frequencies
-awk -f redux.awk < e0 > e1
+awk -f redux.awk < z0 > z1
 
 # percents
-cat e1 | grep '%' | sort -nr -k 3 -t' ' > e2
+cat z1 | grep '%' | sort -nr -k 3 -t' ' > z2
 
 # letters
-cat e1 | grep '-' | sort -nr -k 3 -t' ' > e3
+cat z1 | grep '-' | sort -nr -k 3 -t' ' > z3
 
 # digraphs
-cat e1 | grep '=' | sort -nr -k 3 -t' ' > e4
+cat z1 | grep '=' | sort -nr -k 3 -t' ' > z4
 
 # trigraphs
-cat e1 | grep '+' | sort -nr -k 3 -t' ' > e5
+cat z1 | grep '+' | sort -nr -k 3 -t' ' > z5
 
-# no exists
+# quadgraphs
+cat z1 | grep '#' | sort -nr -k 3 -t' ' > z6
 
-cat e1 | grep '*' | sort -k 2 -t' ' > e6
+# digraphs that no exists
+cat z1 | grep '?' | sort -k 2 -t' ' > z7
+
+# how many by first letter
+cat z1 | grep '~' | sort -nr -k 3 -t' ' > z8
 

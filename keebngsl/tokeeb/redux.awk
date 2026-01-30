@@ -41,31 +41,40 @@ END {
                 
                 }
 
-        # make frequencies
+        # make frequencies from ppm or perc
 
         for ( w in words) {
 
                 # letters
-                n = split(w, its, "")
-                for ( i = 1; i < n; i++ ) {
+                m = split(w, its, "")
+                for ( i = 1; i <= m; i++ ) {
                         k = its[i]
                         sums[k] += 0.0 + words[w]
                         }
                 
-                # count Spaces before and after     
+                # count with Spaces before and after     
                 ws = "S" w "S"
                 n = split(ws, its, "")
 
                 # digraphs
-                for ( i = 1; i < n; i++ ) {
+                if (m < 2) continue;
+                for ( i = 1; i <= n; i++ ) {
                         k = its[i] its[i+1]
                         sumd[k] += 0.0 + words[w]
                         }
 
                 # trigraphs
-                for ( i = 1; i < n - 1; i++ ) {
+                if (m < 3) continue;
+                for ( i = 1; i <= n - 1; i++ ) {
                         k = its[i] its[i+1] its[i+2]
                         sumt[k] += 0.0 + words[w]
+                        }
+
+                # quadgraphs
+                if (m < 4) continue;
+                for ( i = 1; i <= n - 2; i++ ) {
+                        k = its[i] its[i+1] its[i+2] its[i+3]
+                        sumq[k] += 0.0 + words[w]
                         }
 
 
@@ -85,20 +94,20 @@ END {
                 print "+ [" k "] " sumt[k]
                 }
                 
+        for ( k in sumq) {
+                print "# [" k "] " sumq[k]
+                }
+                
         # no exists
         for ( i in sums ) {
+                w = 0.0
                 for ( j in sums ) {
                         k = i j
                         if (sumd[k] > 0.0) continue;
-                        print "* " k " 0.0"
-                        
-                        for ( k in sums ) {
-                                w = i j k
-                                if (sumt[w] > 0.0) continue;
-                                print "~ " w " 0.0"
-                                }
-
+                        print "? " k " 0.0"
+                        w++
                         }
+                print "~ " i " " w
                 }
 
         }
