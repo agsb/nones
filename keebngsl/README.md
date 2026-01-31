@@ -30,11 +30,11 @@ What could be a better layout ?
 
     Assign keys in order frequency list. 
     Balance counts to minimize overuse,
-    No digraph in same key, 
-    No trigraph in same key, 
+    Avoid digraph in same key, 
+    Avoid trigraph in same key, 
 
     1, 2, 3, 4, 5, 6, 7, 8, 9 for arranje multiple letters or symbols
-    0   reserved 
+    0  use for common symbols comma, dot, question. 
     \*  reserved for 12 selects as letters, symbols, functions, etc
     \#  reserved for controls, as select + group of keys + execute, and alone to ends key repeats
 
