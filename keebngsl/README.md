@@ -36,32 +36,40 @@ What could be a better layout ?
     1, 2, 3, 4, 5, 6, 7, 8, 9 for arranje multiple letters or symbols
     0   reserved 
     \*  reserved for 12 selects as letters, symbols, functions, etc
-    \#  reserved for 12 controls and alone to ends key repeats
+    \#  reserved for controls, as select + group of keys + execute, and alone to ends key repeats
 
-With one key for space or backspace, and 8 keys for arranje 26 letters, then 6 keys with 3 letters and 2 keys with four. 
+With one key for space or backspace, and **8 keys for arranje 26 letters**, then 6 keys with 3 letters and 2 keys with four. 
 
-How define the groups of letters for each keys ?
+How define the groups of letters for each keys ? How easy split digraphs of same letter ?
 
 ## NGSL
 
 Using the frequency of letters on NGLS and minimize finger movement for most used words.
 
-
-
 ## Process
+
+All processing are done using AWK and Bash scripts and common GNU Linux tools.
+
+
+### the frequencies
 
 The 2803 words of NGSL 1.2 are represented as "lemma fppm", where lemma is the word and fppm is the frequency of lemma per million.
 
 Then for each letter the fppm of ocurrences in all lemmas are normalized as absolute percentual, and same process for digraphs, trigraphs and tetragraphs using space at begin and ends to form the lemmas. The unused digraphs are listed.
-## Process
 
-After processing, the order of letters in groups of 8, 
+The result frequency tables for letters, digraphs, trigraphs, tetragraphs and not found digraphs.
 
-e t o a n h i r -- s l d u c b f y -- m w p g v k x j -- q z 
+### the combinations
 
+After processing, the order of letters from high to lower frequencies  in groups of 8, are:
+
+    **e t o a n h i r -- s l d u c b f y -- m w p g v k x j -- q z**.
+
+To logical option for minimize the efforts is combine one letter of each group per key, selected with digraphs and trigraphs with lowerest frequencies. ( Using ..... )
+
+The awk script
 
 ## References
-
 
 https://newgeneralservicelist/s/NGSL_12_stats.csv
 
