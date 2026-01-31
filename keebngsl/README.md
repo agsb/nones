@@ -1,24 +1,13 @@
 # TOKEEBS
 
-Using the NGSL 1.2 to define proprieties for a confortable and eficient keyboad.
+What could be the best comfortable and efficient design for a numerical 12 keys that allows use of numbers, letters, symbols and controls ?
 
-## NGSL
+The frequency analises are done using the NGSL 1.2 list of 2803 words to define proprieties for a confortable and eficient keyboad.
 
-## Process
-
-The 2803 words of NGSL 1.2 are represented as "lemma fppm", where fppm 
-is the frequencie of lemma per million.
-
-Then for each letter the fppm of ocurrences in all lemmas are normalized
-as absolute percentual, and same for digraphs, trigraphs and tetragraphs
-using space at begin and ends of lemmas. The unused digraphs are listed.
-
-## telephone numeric 12 keys
+## Telephone numeric 12 keyboard
 
 Old telephone keyboards have a letter layout over the numeric 12 keys.
-
-For access the letter must press it 1 or 2 or 3 times. 
-Like 8(t)44(h)-1-444(i)7777(s)
+For access the letter must press it 1 or 2 or 3 times, like 8(t)44(h)-1-444(i)7777(s)
 
 ```
     1 record on/off
@@ -35,27 +24,35 @@ Like 8(t)44(h)-1-444(i)7777(s)
     # shift on/off
 ```
 
-What could be a better layout ? Using the frequency of letters on NGLS
-and minimize finger movement for most used words.
-
-0   reserved 
-\*  for 12 selects as letters, symbols, functions, etc
-\#  for 12 controls and alone to ends key repeats
-
-1, 2, 3, 4, 5, 6, 7, 8, 9 for arranje multiples signs
-
-One key for space, and backspace, and 8 keys for arranje 26 letters, 
-then 6 keys with 3 letters and 2 keys with four. 
-
-How define the groups of letters for each keys?
+What could be a better layout ? 
 
 ## Restrictions
 
-Assign keys in order frequency list. Use NGSL.
-No digraph in same key, possible 27 * 27 = 729, real   
-No trigraph in same key, 
-Balance counts to minimize overuse,
+    Assign keys in order frequency list. 
+    Balance counts to minimize overuse,
+    No digraph in same key, 
+    No trigraph in same key, 
 
+    1, 2, 3, 4, 5, 6, 7, 8, 9 for arranje multiple letters or symbols
+    0   reserved 
+    \*  reserved for 12 selects as letters, symbols, functions, etc
+    \#  reserved for 12 controls and alone to ends key repeats
+
+With one key for space or backspace, and 8 keys for arranje 26 letters, then 6 keys with 3 letters and 2 keys with four. 
+
+How define the groups of letters for each keys ?
+
+## NGSL
+
+Using the frequency of letters on NGLS and minimize finger movement for most used words.
+
+
+
+## Process
+
+The 2803 words of NGSL 1.2 are represented as "lemma fppm", where lemma is the word and fppm is the frequency of lemma per million.
+
+Then for each letter the fppm of ocurrences in all lemmas are normalized as absolute percentual, and same process for digraphs, trigraphs and tetragraphs using space at begin and ends to form the lemmas. The unused digraphs are listed.
 ## Process
 
 After processing, the order of letters in groups of 8, 
