@@ -69,6 +69,14 @@ To logical option for minimize the efforts is combine one letter of each group p
 
 The digraphs with first letter from group one _e t o a n h i r_ with second letter from group two _s l d u c b f y_ were selected from the list frequencies of digraphs and complemented witht frequency 0.0 for those inexistent. Then use brute force for select best lower overall combinations.
 
+## Lists used
+
+    ngls    ngsl-1.2 
+
+    ngrf    google books n-gram, full
+
+    ngrp    google books n-gram, only > 1
+
 ## References
 
 https://newgeneralservicelist/s/NGSL_12_stats.csv

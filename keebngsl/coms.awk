@@ -23,12 +23,7 @@ BEGIN {
 
         $0 = $0
 
-        m++
-
-        w[m] = $2
-        v[m] = $3
-
-        s += 0 + $3
+        ws[$2] = $3
 
         }
 
@@ -36,26 +31,38 @@ END {
 
         n = split ("etoanhirslducbfymwpgvkxjqz", qq, "")
 
+        # complement the list with no shows
+
         for (i = 1; i <= 8; i++) {
         
                 for (j = 9; j <= 16; j++) {
-                
                         
-                        ws = qq[i] qq[j]
-
-                        vs = v[ws]
+                        w = qq[i] qq[j]
                         
-                        if (vs > 0.0) continue;
+                        if (ws[w] > 0.0) continue;
 
-                        m++
-                        w[m] = ws
-                        v[m] = 0.0
-                        }
-                 }       
+                        ws[w]= 0.0
+                        }       
+                }
 
-        for (i=1; i <= m; i++) {
+        # calculate the sums in either order
+        for (i = 1; i <= 8; i++) {
+        
+                for (j = 9; j <= 16; j++) {
+                        
+                        a = qq[i] qq[j]
+                        b = qq[j] qq[i]
+                        
+                        vs[a] = ws[a] + ws[b] + 0.0 
 
-                print "= (" w[i] ") (" v[i] ") "
+                        }       
+                }
+
+        # lists the digraphs and sums
+
+        for (w in vs) {
+
+                print "* " w " " vs[w] + 0.0
 
                 }
 
