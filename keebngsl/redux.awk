@@ -26,6 +26,8 @@ BEGIN {
 
         words[$1] = $2
         
+        # sum all fppms
+
         sum += 0 + $2
 
         }
@@ -39,12 +41,9 @@ END {
                 
                 print "% " w " " perc
 
-                # uncomment for use percents
-                # words[w] = perc
-                
                 }
 
-        # make frequencies from ppm (or perc)
+        # make frequencies from ppm 
 
         for ( w in words) {
 
@@ -55,7 +54,7 @@ END {
                         sums[k] += 0.0 + words[w]
                         }
                 
-                # count with Spaces before and after     
+                # counts with Spaces before and after     
                 ws = "S" w "S"
                 n = split(ws, its, "")
 
@@ -76,7 +75,6 @@ END {
                         k = its[i] its[i+1] its[i+2] its[i+3]
                         sumq[k] += 0.0 + words[w]
                         }
-
 
                 }
 
@@ -120,16 +118,17 @@ END {
                 print "# [" k "] " (sumq[k] * 100.0 / qtq)
                 }
                 
-        # no exists
+        # digraphs that no exists
         for ( i in sums ) {
-                w = 0.0
+                m = 0.0
                 for ( j in sums ) {
                         k = i j
                         if (sumd[k] > 0.0) continue;
-                        print "? " k " 0.0"
-                        w++
+                        print "~ [" k "] 0.0"
+                        m++
                         }
-                print "~ " i " " w
+                # how many
+                print "? " i " " m
                 }
 
         }
