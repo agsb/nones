@@ -1,0 +1,7 @@
+
+for file in ` find . -maxdepth 1 -type d -name '???*' ` ; do 
+    echo $file
+    cd $file
+    git pull
+    cd ..
+    done
