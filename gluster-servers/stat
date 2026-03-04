@@ -1,0 +1,12 @@
+Status of volume: nine
+Gluster process                             TCP Port  RDMA Port  Online  Pid
+------------------------------------------------------------------------------
+Brick gluster1:/pool/data/brick1/gfs        59380     0          Y       7584 
+Brick gluster2:/pool/data/brick2/gfs        51238     0          Y       7600 
+Brick gluster3:/pool/data/brick4/gfs        57600     0          Y       7616 
+Self-heal Daemon on localhost               N/A       N/A        Y       7633 
+ 
+Task Status of Volume nine
+------------------------------------------------------------------------------
+There are no active volume tasks
+ 

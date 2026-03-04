@@ -1,0 +1,43 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:24007           0.0.0.0:*               LISTEN      1370/glusterd       
+tcp        0      0 0.0.0.0:51238           0.0.0.0:*               LISTEN      7600/glusterfsd     
+tcp        0      0 0.0.0.0:59380           0.0.0.0:*               LISTEN      7584/glusterfsd     
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1259/cupsd          
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      835/systemd-resolve 
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      835/systemd-resolve 
+tcp        0      0 0.0.0.0:57600           0.0.0.0:*               LISTEN      7616/glusterfsd     
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1/init              
+tcp        0      0 192.168.10.21:49140     192.168.10.23:57600     ESTABLISHED 8813/glusterfs      
+tcp        0      0 192.168.10.21:49143     192.168.10.23:57600     ESTABLISHED 7633/glusterfs      
+tcp        0      0 192.168.10.22:51238     192.168.10.21:49144     ESTABLISHED 7600/glusterfsd     
+tcp        0      0 127.0.0.1:24007         127.0.0.1:49147         ESTABLISHED 1370/glusterd       
+tcp        0      0 192.168.10.21:49151     192.168.10.21:24007     ESTABLISHED 7584/glusterfsd     
+tcp        0      0 192.168.10.22:51238     192.168.10.21:49141     ESTABLISHED 7600/glusterfsd     
+tcp        0      0 192.168.10.21:59380     192.168.10.21:49147     ESTABLISHED 7584/glusterfsd     
+tcp        0      0 192.168.10.22:24007     192.168.10.21:49150     ESTABLISHED 1370/glusterd       
+tcp        0      0 192.168.10.21:59380     192.168.10.21:49148     ESTABLISHED 7584/glusterfsd     
+tcp        0      0 192.168.10.21:49150     192.168.10.22:24007     ESTABLISHED 7600/glusterfsd     
+tcp        0      0 192.168.10.23:57600     192.168.10.21:49143     ESTABLISHED 7616/glusterfsd     
+tcp        0      0 127.0.0.1:49147         127.0.0.1:24007         ESTABLISHED 8813/glusterfs      
+tcp        0      0 127.0.0.1:49148         127.0.0.1:24007         ESTABLISHED 7633/glusterfs      
+tcp        0      0 192.168.10.21:49147     192.168.10.21:59380     ESTABLISHED 8813/glusterfs      
+tcp        0      0 192.168.10.21:49148     192.168.10.21:59380     ESTABLISHED 7633/glusterfs      
+tcp        0      0 192.168.10.21:49149     192.168.10.23:24007     ESTABLISHED 7616/glusterfsd     
+tcp        0      0 127.0.0.1:24007         127.0.0.1:49148         ESTABLISHED 1370/glusterd       
+tcp        0      0 192.168.10.23:24007     192.168.10.21:49149     ESTABLISHED 1370/glusterd       
+tcp        0      0 192.168.10.23:57600     192.168.10.21:49140     ESTABLISHED 7616/glusterfsd     
+tcp        0      0 192.168.10.21:24007     192.168.10.21:49151     ESTABLISHED 1370/glusterd       
+tcp        0      0 192.168.10.21:49141     192.168.10.22:51238     ESTABLISHED 8813/glusterfs      
+tcp        0      0 192.168.10.21:49144     192.168.10.22:51238     ESTABLISHED 7633/glusterfs      
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1259/cupsd          
+tcp6       0      0 :::111                  :::*                    LISTEN      1/init              
+udp        0      0 0.0.0.0:48389           0.0.0.0:*                           902/avahi-daemon: r 
+udp        0      0 127.0.0.54:53           0.0.0.0:*                           835/systemd-resolve 
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           835/systemd-resolve 
+udp        0      0 10.19.17.4:68           10.19.17.1:67           ESTABLISHED 1112/NetworkManager 
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1/init              
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           902/avahi-daemon: r 
+udp6       0      0 :::111                  :::*                                1/init              
+udp6       0      0 :::57979                :::*                                902/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                902/avahi-daemon: r 

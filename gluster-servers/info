@@ -1,0 +1,18 @@
+ 
+Volume Name: nine
+Type: Replicate
+Volume ID: e4dfba4f-4fbc-4b21-bf5d-036585e5a594
+Status: Started
+Snapshot Count: 0
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: gluster1:/pool/data/brick1/gfs
+Brick2: gluster2:/pool/data/brick2/gfs
+Brick3: gluster3:/pool/data/brick4/gfs
+Options Reconfigured:
+cluster.granular-entry-heal: on
+storage.fips-mode-rchecksum: on
+transport.address-family: inet
+nfs.disable: on
+performance.client-io-threads: off
