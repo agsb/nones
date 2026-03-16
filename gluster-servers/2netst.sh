@@ -16,7 +16,7 @@ sudo ip addr add 192.168.10.24/24 dev $DEVICE
 
 # actualize hosts
 
-grep 'gluster setup' /etc/hosts && exit
+grep 'glusterfs setup' /etc/hosts && exit
 
 sudo tee -a /etc/hosts << END
 # ~~~ glustefs setup ~~~~
