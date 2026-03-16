@@ -5,7 +5,7 @@ sudo apt install net-tools
 
 # mask interfaces, one ethernet ?
 
-DEVICE=`ifconfig | grep ' ether '  | head -1 | cut -f1 -d:`
+DEVICE=`ifconfig | grep 'mtu 1500'  | head -1 | cut -f1 -d:`
 
 echo "$DEVICE"
 
