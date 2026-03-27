@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+> outs && find linux -type f -exec bash do.sh \{\} \; 
