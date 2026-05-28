@@ -121,7 +121,7 @@ sudo gluster volume info
 # uses SLICE * 4 GB of disk
 # agsb@ 2025
 
-SECTOR=4096
+SECTOR=512
 
 BLOCK=$1
 
@@ -188,6 +188,8 @@ for j in 0 1 2 3 4 5 6 7 8 9 0 a b c d e f ;
   done
 cd .. 
 exit
+
+
 
 
 ## Extras, a posteriori
