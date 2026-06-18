@@ -1,0 +1,66 @@
+
+
+#1. postfix
+# https://www.postfix.org/
+  
+
+
+#2. mlmmj
+# https://codeberg.org/mlmmj/mlmmj
+
+        sudo apt install -y pkg-config libatf-dev
+
+        sudo apt install -y kyua atf-sh
+
+        sudo git https://codeberg.org/mlmmj/mlmmj.git
+
+        cd mlmmj
+
+        sh configure && make && make check && make install
+
+        useradd -r -u 72 -b /var/spool -M -s /usr/sbin/nologin mlmmj   
+
+        mkdir -p /var/spool/mlmmj && chown mlmmj: /var/spool/mlmmj
+
+        cat << EOT >> /etc/postfix/master.cf
+#
+# ====================================================================
+# mlmmj mailing lists
+#
+mlmmj   unix  -       n       n       -       -       pipe
+    flags=DORhu user=mlmmj argv=/usr/bin/mlmmj-receive -F -L /var/spool/mlmmj/$nexthop
+EOT
+   
+        cat << EOT >> /etc/postfix/main.cf
+#
+# ====================================================================
+# mlmmj mailing lists
+#
+# Enable '+' as the standard mlmmj recipient delimiter
+recipient_delimiter = +
+
+# Ensure mlmmj processes messages individually per list
+mlmmj_destination_recipient_limit = 1
+
+# A map to forward mail to a dummy domain
+virtual_alias_maps = lmdb:/var/spool/mlmmj/virtual
+
+# Allow virtual alias maps to specify only the user part of the address
+# and have the +extension part preserved when forwarding, so that
+# list-name+subscribe, list-name+confsub012345678, etc. will all work
+propagate_unmatched_extensions = virtual
+
+# A map to forward mail for the dummy domain to the Mlmmj transport
+transport_maps = lmdb:/var/spool/mlmmj/transport
+
+EOT
+
+        echo "://yourdomain.com   mlmmj:yourlistdomain " >> /etc/postfix/transport
+
+        postmap /etc/postfix/transport
+        
+        postfix reload
+
+
+
+        
