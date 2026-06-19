@@ -58,6 +58,10 @@ EOT
         echo "://yourdomain.com   mlmmj:yourlistdomain " >> /etc/postfix/transport
 
         postmap /etc/postfix/transport
+
+#        chmod 600 /etc/postfix/sasl_passwd
+
+#        postmap /etc/postfix/sasl_passwd
         
         postfix reload
 
