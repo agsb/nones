@@ -1,0 +1,64 @@
+# from https://medium.com/@bektiaw/bash-aliases-that-will-save-you-hours-7ab982cae507
+
+# Memory usage + top memory-consuming processes.
+alias meminfo='free -h && echo "--- Top Memory Processes ---" && ps aux --sort=-%mem | head -10'     
+# CPU details + top CPU-consuming processes.
+alias cpuinfo='lscpu && echo "--- Top CPU Processes ---" && ps aux --sort=-%cpu | head -10'          
+# Show disk usage in human-readable units.
+alias disk='df -h'                                                                                   
+# Display sizes of files and directories.
+alias usage='du -sh ./*'                                                                             
+# List listening ports with associated processes.
+alias ports='sudo ss -tulpn'                                                                         
+# Show your public IP address.
+alias myip='curl -s ifconfig.me'                                                                     
+# Display PATH one directory per line.
+alias path='echo "$PATH" | tr ":" "\n"'                                                              
+# Quick internet connectivity test.
+alias pingg='ping google.com'                                                                        
+# Search for running processes.
+alias psg='ps aux | grep -i'                                                                         
+# Date formatted
+alias now='date +"%F %T"'  
+
+
+alias gs='git status'                          # Show repository status.
+alias ga='git add'                             # Stage files.
+alias gaa='git add .'                          # Stage all changes in the current directory.
+alias gc='git commit'                          # Create a commit.
+alias gcm='git commit -m'                      # Commit with a message.
+alias gp='git push'                            # Push commits to the remote repository.
+alias gpl='git pull'                           # Pull the latest changes.
+alias gb='git branch'                          # List or manage branches.
+alias gco='git checkout'                       # Switch branches or restore files.
+alias gsw='git switch'                         # Switch branches (modern Git).
+alias gd='git diff'                            # Show unstaged changes.
+alias gl='git log --oneline --graph --decorate --all'  # Compact commit history graph.
+alias gst='git stash'                          # Stash uncommitted changes.
+alias gpop='git stash pop'                     # Restore the latest stash.
+
+alias d='docker'                                                                      # Shorten the docker command.
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'            # Show running containers with the most useful columns.
+alias dpsa='docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"'        # List all containers with their images.
+alias dimg='docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"'      # Display local images in a clean table.
+alias dlogs='docker logs -f --tail 100'                                               # Follow the last 100 log lines.
+alias dexec='docker exec -it'                                                         # Open an interactive shell in a container.
+alias dstats='docker stats'                                                           # Monitor live container resource usage.
+alias dinspect='docker inspect'                                                       # Display detailed container or image information.
+alias dnet='docker network ls'                                                        # List Docker networks.
+alias dvol='docker volume ls'                                                         # List Docker volumes.
+alias dcomp='docker compose'                                                          # Shorten Docker Compose commands.
+alias dup='docker compose up -d'                                                      # Start Compose services in detached mode.
+alias ddown='docker compose down'                                                     # Stop and remove Compose services.
+alias drestart='docker restart'                                                       # Restart one or more containers.
+alias dprune='docker system prune -f'                                                 # Remove unused containers, networks, images, and cache.
+
+alias c='clear'                                  # Clear the terminal screen.
+alias h='history'                                # Show command history.
+alias hg='history | grep'                        # Search command history.
+alias shreload='source ~/.bashrc'                # Reload shell configuration on the fly. Replace with ~/.zshrc if using Zsh
+alias shconfig='nano ~/.bashrc'                  # Quick access to config files. Replace with ~/.zshrc if using Zsh
+alias aliasconfig='nano ~/.bash_aliases'         # Edit your aliases file.
+alias aliases='alias | sort'                     # List all aliases alphabetically.
+alias clslog='sudo journalctl --vacuum-time=7d'  # Remove systemd logs older than 7 days.
+alias today='history | grep "$(date +%F)"'       # Show today's command history.
