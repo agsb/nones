@@ -53,12 +53,65 @@ alias ddown='docker compose down'                                               
 alias drestart='docker restart'                                                       # Restart one or more containers.
 alias dprune='docker system prune -f'                                                 # Remove unused containers, networks, images, and cache.
 
+# Cleaner ps output
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
+alias dpsa='docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"'
+
+# Common operations
+alias dstop='docker stop'
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias dlogs='docker logs -f --tail=100'
+# Exec into a running container
+dsh() { docker exec -it "$1" /bin/sh; }
+dbash() { docker exec -it "$1" /bin/bash; }
+# Prune everything unused
+alias dprune='docker system prune -af'
+alias dvolprune='docker volume prune -f'
+# Build and tag
+dbuild() { docker build -t "$1" .; }
+
+
+
 alias c='clear'                                  # Clear the terminal screen.
 alias h='history'                                # Show command history.
 alias hg='history | grep'                        # Search command history.
-alias shreload='source ~/.bashrc'                # Reload shell configuration on the fly. Replace with ~/.zshrc if using Zsh
-alias shconfig='nano ~/.bashrc'                  # Quick access to config files. Replace with ~/.zshrc if using Zsh
+alias shreload='source ~/.bashrc'                # Reload shell configuration on the fly. 
+alias shconfig='nano ~/.bashrc'                  # Quick access to config files. 
 alias aliasconfig='nano ~/.bash_aliases'         # Edit your aliases file.
 alias aliases='alias | sort'                     # List all aliases alphabetically.
 alias clslog='sudo journalctl --vacuum-time=7d'  # Remove systemd logs older than 7 days.
 alias today='history | grep "$(date +%F)"'       # Show today's command history.
+
+# Core shortcuts
+alias k='kubectl'
+alias kgp='kubectl get pods'
+alias kgpa='kubectl get pods -A'
+alias kgn='kubectl get nodes'
+alias kgs='kubectl get svc'
+alias kgd='kubectl get deployments'
+alias kge='kubectl get events --sort-by=.lastTimestamp'
+
+# Describe
+alias kdp='kubectl describe pod'
+alias kdn='kubectl describe node'
+# Logs (function - needs a pod name argument)
+kl() { kubectl logs "$@" --tail=100 -f; }
+klp() { kubectl logs "$@" --previous --tail=100; }
+# Exec into a pod
+kex() { kubectl exec -it "$1" -- /bin/sh; }
+kexb() { kubectl exec -it "$1" -- /bin/bash; }
+# Namespace switching (requires kubens from kubectx)
+alias kns='kubens'
+alias kctx='kubectx'
+# Quick context check
+alias kwhere='kubectl config current-context'
+# Delete a pod (force)
+kdelf() { kubectl delete pod "$1" --grace-period=0 --force; }
+# Apply and watch
+kapply() { kubectl apply -f "$1" && kubectl rollout status deployment/"$2"; }
+# Port forward shortcut (function)
+kpf() { kubectl port-forward "$1" "$2"; }
+
+
+
