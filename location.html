@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>HTML5 Geolocation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="">
+</head>
+
+<body>
+
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+
+var x = document.getElementById("demo");
+
+function getLocation() {
+	if (navigator.geolocation) {
+		navigator.geolocation.watchPosition(showPosition);
+	} else {
+	x.innerHTML = "Geolocation is not supported by this browser.";
+	}
+}
+
+function showPosition(position) {
+x.innerHTML = 
+"<br> latitude: " + position.coords.latitude + 
+"<br> longitude: " + position.coords.longitude + 
+"<br> accuracy: " + position.coords.accuracy  + 
+"<br> altitude: " + position.coords.altitude  + 
+"<br> acuracy: " + position.coords.altitudeAccuracy + 
+"<br> direção: " + position.coords.heading + 
+"<br> velocidade: " + position.coords.speed + 
+"<br> tempop: " + position.timestamp ;
+}
+
+</script> 
+
+</body>
+</html>
