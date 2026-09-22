@@ -1,0 +1,16 @@
+
+# default identification  
+[user]
+	email = ${user.email}
+	name = ${user.name}
+
+# self, work, lazy, duty,
+
+[includeIf "gitdir:~/Projects/self/"]
+	path = ~/.gitconfig.self
+
+[includeIf "gitdir:~/Projects/work/"]
+	path = ~/.gitconfig.work
+
+# could also be path = gitdir/.gitconfig 
+
