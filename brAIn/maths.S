@@ -29,7 +29,15 @@
 ;
 ; continuous math of unsigned bytes 
 ;
-
+; Note:
+;	standart mean = Sum (Vi) / n, i[1..n], 
+;		consider n the index of last value
+;
+;	the mean =  (Vi + Vm) / 2, i[1..n] and Vm is last mean
+;
+;	results mean = Sum ( Vi/(2^(n - i)) ) / 2 + Vn / 2, 
+;
+;
 ;   r2 mean
 ;   r3 noise
 ;   r4 threshold
