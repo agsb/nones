@@ -1,1 +1,6 @@
- mc screen tmux curl git fzf ranger
+
+ mc screen tmux curl git fzf calcurse ripgrep 
+
+ # lazydocker ?
+
+
